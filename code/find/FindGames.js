@@ -10,8 +10,8 @@ function pairIds(ids, group) {
   if (ids)
     group.forEach(function (g) {
       ids.forEach(function (id) {
-        if (g.id == id)
-          result.push(g.name)
+        if (g[0] == id)
+          result.push(g[1].name)
       });
     });
   return result;

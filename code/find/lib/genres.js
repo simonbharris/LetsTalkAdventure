@@ -1,4 +1,4 @@
-module.exports = new Map([
+module.exports = [
   [
     13,
     {
@@ -139,4 +139,4 @@ module.exports = new Map([
     	url: "https://www.igdb.com/genres/point-and-click"
     }
   ]
-]);
+];

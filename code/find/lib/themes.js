@@ -1,4 +1,4 @@
-module.exports = new Map([
+module.exports = [
   [
     38,
     {
@@ -146,4 +146,4 @@ module.exports = new Map([
     	url: "https://www.igdb.com/themes/comedy"
     }
   ]
-]);
+];

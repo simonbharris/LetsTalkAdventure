@@ -1,622 +1,622 @@
-module.exports = new Map([
+module.exports = [
   [
     3,
-    "Linux"
+    { name: "Linux" }
   ],
   [
     6,
-    "PC (Microsoft Windows)"
+    { name: "PC (Microsoft Windows)" }
   ],
   [
     7,
-    "PlayStation"
+    { name: "PlayStation" }
   ],
   [
     8,
-    "PlayStation 2"
+    { name: "PlayStation 2" }
   ],
   [
     9,
-    "PlayStation 3"
+    { name: "PlayStation 3" }
   ],
   [
     19,
-    "Super Nintendo Entertainment System (SNES)"
+    { name: "Super Nintendo Entertainment System (SNES)" }
   ],
   [
     25,
-    "Amstrad CPC"
+    { name: "Amstrad CPC" }
   ],
   [
     27,
-    "MSX"
+    { name: "MSX" }
   ],
   [
     39,
-    "iOS"
+    { name: "iOS" }
   ],
   [
     44,
-    "Tapwave Zodiac"
+    { name: "Tapwave Zodiac" }
   ],
-    [
+  [
     75,
-    "Apple II"
+    { name: "Apple II" }
   ],
   [
     80,
-    "Neo Geo AES"
+    { name: "Neo Geo AES" }
   ],
   [
     68,
-    "ColecoVision"
+    { name: "ColecoVision" }
   ],
   [
     74,
-    "Windows Phone"
+    { name: "Windows Phone" }
   ],
   [
     94,
-    "Commodore Plus/4"
+    { name: "Commodore Plus/4" }
   ],
   [
     96,
-    "PDP-10"
+    { name: "PDP-10" }
   ],
   [
     123,
-    "WonderSwan Color"
+    { name: "WonderSwan Color" }
   ],
   [
     129,
-    "Texas Instruments TI-99"
+    { name: "Texas Instruments TI-99" }
   ],
   [
     133,
-    "Philips Videopac G7000"
+    { name: "Philips Videopac G7000" }
   ],
   [
     134,
-    "Acorn Electron"
+    { name: "Acorn Electron" }
   ],
-   [
+  [
     156,
-    "Thomson MO5"
+    { name: "Thomson MO5" }
   ],
   [
     160,
-    "Nintendo eShop"
+    { name: "Nintendo eShop" }
   ],
   [
     163,
-    "SteamVR"
+    { name: "SteamVR" }
   ],
   [
     11,
-    "Xbox"
+    { name: "Xbox" }
   ],
   [
     88,
-    "Odyssey"
+    { name: "Odyssey" }
   ],
   [
     90,
-    "Commodore PET"
+    { name: "Commodore PET" }
   ],
   [
     144,
-    "AY-3-8710"
+    { name: "AY-3-8710" }
   ],
   [
     12,
-    "Xbox 360"
+    { name: "Xbox 360" }
   ],
   [
     146,
-    "AY-3-8605"
+    { name: "AY-3-8605" }
   ],
   [
     14,
-    "Mac"
+    { name: "Mac" }
   ],
-    [
+  [
     15,
-    "Commodore C64/128"
+    { name: "Commodore C64/128" }
   ],
   [
     48,
-    "PlayStation 4"
+    { name: "PlayStation 4" }
   ],
   [
     97,
-    "PDP-8"
+    { name: "PDP-8" }
   ],
   [
     147,
-    "AY-3-8606"
+    { name: "AY-3-8606" }
   ],
   [
     164,
-    "Daydream"
+    { name: "Daydream" }
   ],
   [
     51,
-    "Family Computer Disk System"
+    { name: "Family Computer Disk System" }
   ],
   [
     165,
-    "PlayStation VR"
+    { name: "PlayStation VR" }
   ],
   [
     115,
-    "Apple IIGS"
+    { name: "Apple IIGS" }
   ],
   [
     118,
-    "FM Towns"
+    { name: "FM Towns" }
   ],
   [
     67,
-    "Intellivision"
+    { name: "Intellivision" }
   ],
-    [
+  [
     71,
-    "Commodore VIC-20"
+    { name: "Commodore VIC-20" }
   ],
   [
     120,
-    "Neo Geo Pocket Color"
+    { name: "Neo Geo Pocket Color" }
   ],
   [
     126,
-    "TRS-80"
+    { name: "TRS-80" }
   ],
   [
     128,
-    "PC Engine SuperGrafx"
+    { name: "PC Engine SuperGrafx" }
   ],
   [
     135,
-    "Hyper Neo Geo 64"
+    { name: "Hyper Neo Geo 64" }
   ],
   [
     72,
-    "Ouya"
+    { name: "Ouya" }
   ],
   [
     91,
-    "Bally Astrocade"
+    { name: "Bally Astrocade" }
   ],
   [
     136,
-    "Neo Geo CD"
+    { name: "Neo Geo CD" }
   ],
   [
     142,
-    "PC-50X Family"
+    { name: "PC-50X Family" }
   ],
   [
     4,
-    "Nintendo 64"
+    { name: "Nintendo 64" }
   ],
-    [
+  [
     34,
-    "Android"
+    { name: "Android" }
   ],
   [
     35,
-    "Sega Game Gear"
+    { name: "Sega Game Gear" }
   ],
   [
     148,
-    "AY-3-8607"
+    { name: "AY-3-8607" }
   ],
   [
     36,
-    "Xbox Live Arcade"
+    { name: "Xbox Live Arcade" }
   ],
   [
     53,
-    "MSX2"
+    { name: "MSX2" }
   ],
   [
     56,
-    "WiiWare"
+    { name: "WiiWare" }
   ],
   [
     57,
-    "WonderSwan"
+    { name: "WonderSwan" }
   ],
   [
     60,
-    "Atari 7800"
+    { name: "Atari 7800" }
   ],
   [
     62,
-    "Atari Jaguar"
+    { name: "Atari Jaguar" }
   ],
   [
     65,
-    "Atari 8-bit"
+    { name: "Atari 8-bit" }
   ],
-    [
+  [
     66,
-    "Atari 5200"
+    { name: "Atari 5200" }
   ],
   [
     87,
-    "Virtual Boy"
+    { name: "Virtual Boy" }
   ],
   [
     92,
-    "SteamOS"
+    { name: "SteamOS" }
   ],
   [
     98,
-    "DEC GT40"
+    { name: "DEC GT40" }
   ],
   [
     105,
-    "HP 3000"
+    { name: "HP 3000" }
   ],
   [
     124,
-    "SwanCrystal"
+    { name: "SwanCrystal" }
   ],
   [
     127,
-    "Fairchild Channel F"
+    { name: "Fairchild Channel F" }
   ],
   [
     149,
-    "PC-98"
+    { name: "PC-98" }
   ],
   [
     131,
-    "Nintendo PlayStation"
+    { name: "Nintendo PlayStation" }
   ],
   [
     158,
-    "Commodore CDTV"
+    { name: "Commodore CDTV" }
   ],
-    [
+  [
     38,
-    "PlayStation Portable"
+    { name: "PlayStation Portable" }
   ],
   [
     5,
-    "Wii"
+    { name: "Wii" }
   ],
   [
     13,
-    "PC DOS"
+    { name: "PC DOS" }
   ],
   [
     22,
-    "Game Boy Color"
+    { name: "Game Boy Color" }
   ],
   [
     23,
-    "Dreamcast"
+    { name: "Dreamcast" }
   ],
   [
     89,
-    "Microvision"
+    { name: "Microvision" }
   ],
   [
     24,
-    "Game Boy Advance"
+    { name: "Game Boy Advance" }
   ],
   [
     26,
-    "ZX Spectrum"
+    { name: "ZX Spectrum" }
   ],
   [
     46,
-    "PlayStation Vita"
+    { name: "PlayStation Vita" }
   ],
   [
     33,
-    "Game Boy"
+    { name: "Game Boy" }
   ],
-    [
+  [
     41,
-    "Wii U"
+    { name: "Wii U" }
   ],
   [
     42,
-    "N-Gage"
+    { name: "N-Gage" }
   ],
   [
     45,
-    "PlayStation Network"
+    { name: "PlayStation Network" }
   ],
   [
     47,
-    "Virtual Console (Nintendo)"
+    { name: "Virtual Console (Nintendo)" }
   ],
   [
     50,
-    "3DO Interactive Multiplayer"
+    { name: "3DO Interactive Multiplayer" }
   ],
   [
     52,
-    "Arcade"
+    { name: "Arcade" }
   ],
   [
     55,
-    "Mobile"
+    { name: "Mobile" }
   ],
   [
     58,
-    "Super Famicom"
+    { name: "Super Famicom" }
   ],
   [
     69,
-    "BBC Microcomputer System"
+    { name: "BBC Microcomputer System" }
   ],
   [
     70,
-    "Vectrex"
+    { name: "Vectrex" }
   ],
-    [
+  [
     95,
-    "PDP-1"
+    { name: "PDP-1" }
   ],
   [
     108,
-    "PDP-11"
+    { name: "PDP-11" }
   ],
   [
     112,
-    "Microcomputer"
+    { name: "Microcomputer" }
   ],
   [
     119,
-    "Neo Geo Pocket"
+    { name: "Neo Geo Pocket" }
   ],
   [
     125,
-    "PC-8801"
+    { name: "PC-8801" }
   ],
   [
     138,
-    "VC 4000"
+    { name: "VC 4000" }
   ],
   [
     150,
-    "Turbografx-16/PC Engine CD"
+    { name: "Turbografx-16/PC Engine CD" }
   ],
   [
     155,
-    "Tatung Einstein"
+    { name: "Tatung Einstein" }
   ],
   [
     159,
-    "Nintendo DSi"
+    { name: "Nintendo DSi" }
   ],
   [
     166,
-    "Pokémon mini"
+    { name: "Pokémon mini" }
   ],
-    [
+  [
     152,
-    "FM-7"
+    { name: "FM-7" }
   ],
   [
     16,
-    "Amiga"
+    { name: "Amiga" }
   ],
   [
     29,
-    "Sega Mega Drive/Genesis"
+    { name: "Sega Mega Drive/Genesis" }
   ],
   [
     130,
-    "Nintendo Switch"
+    { name: "Nintendo Switch" }
   ],
   [
     30,
-    "Sega 32X"
+    { name: "Sega 32X" }
   ],
   [
     37,
-    "Nintendo 3DS"
+    { name: "Nintendo 3DS" }
   ],
   [
     49,
-    "Xbox One"
+    { name: "Xbox One" }
   ],
   [
     78,
-    "Sega CD"
+    { name: "Sega CD" }
   ],
   [
     84,
-    "SG-1000"
+    { name: "SG-1000" }
   ],
   [
     85,
-    "Donner Model 30"
+    { name: "Donner Model 30" }
   ],
   [
     132,
-    "Amazon Fire TV"
+    { name: "Amazon Fire TV" }
   ],
   [
     101,
-    "Ferranti Nimrod Computer"
+    { name: "Ferranti Nimrod Computer" }
   ],
   [
     137,
-    "New Nintendo 3DS"
+    { name: "New Nintendo 3DS" }
   ],
   [
     106,
-    "SDS Sigma 7"
+    { name: "SDS Sigma 7" }
   ],
   [
     109,
-    "CDC Cyber 70"
+    { name: "CDC Cyber 70" }
   ],
   [
     139,
-    "1292 Advanced Programmable Video System"
+    { name: "1292 Advanced Programmable Video System" }
   ],
   [
     153,
-    "Dragon 32/64"
+    { name: "Dragon 32/64" }
   ],
   [
     154,
-    "Amstrad PCW"
+    { name: "Amstrad PCW" }
   ],
   [
     140,
-    "AY-3-8500"
+    { name: "AY-3-8500" }
   ],
   [
     143,
-    "AY-3-8760"
+    { name: "AY-3-8760" }
   ],
-    [
+  [
     114,
-    "Amiga CD32"
+    { name: "Amiga CD32" }
   ],
   [
     145,
-    "AY-3-8603"
+    { name: "AY-3-8603" }
   ],
   [
     151,
-    "TRS-80 Color Computer"
+    { name: "TRS-80 Color Computer" }
   ],
   [
     161,
-    "Windows Mixed Reality"
+    { name: "Windows Mixed Reality" }
   ],
   [
     116,
-    "Acorn Archimedes"
+    { name: "Acorn Archimedes" }
   ],
   [
     167,
-    "PlayStation 5"
+    { name: "PlayStation 5" }
   ],
   [
     82,
-    "Web browser"
+    { name: "Web browser" }
   ],
   [
     122,
-    "Nuon"
+    { name: "Nuon" }
   ],
   [
     113,
-    "OnLive Game System"
+    { name: "OnLive Game System" }
   ],
   [
     117,
-    "Philips CD-i"
+    { name: "Philips CD-i" }
   ],
-    [
+  [
     18,
-    "Nintendo Entertainment System (NES)"
+    { name: "Nintendo Entertainment System (NES)" }
   ],
   [
     32,
-    "Sega Saturn"
+    { name: "Sega Saturn" }
   ],
   [
     59,
-    "Atari 2600"
+    { name: "Atari 2600" }
   ],
   [
     64,
-    "Sega Master System"
+    { name: "Sega Master System" }
   ],
   [
     121,
-    "Sharp X68000"
+    { name: "Sharp X68000" }
   ],
   [
     141,
-    "AY-3-8610"
+    { name: "AY-3-8610" }
   ],
   [
     157,
-    "NEC PC-6000 Series"
+    { name: "NEC PC-6000 Series" }
   ],
   [
     77,
-    "Sharp X1"
+    { name: "Sharp X1" }
   ],
   [
     79,
-    "Neo Geo MVS"
+    { name: "Neo Geo MVS" }
   ],
   [
     93,
-    "Commodore 16"
+    { name: "Commodore 16" }
   ],
-    [
+  [
     99,
-    "Family Computer (FAMICOM)"
+    { name: "Family Computer (FAMICOM)" }
   ],
   [
     100,
-    "Analogue electronics"
+    { name: "Analogue electronics" }
   ],
   [
     102,
-    "EDSAC"
+    { name: "EDSAC" }
   ],
   [
     103,
-    "PDP-7"
+    { name: "PDP-7" }
   ],
   [
     104,
-    "HP 2100"
+    { name: "HP 2100" }
   ],
   [
     107,
-    "Call-A-Computer time-shared mainframe computer system"
+    { name: "Call-A-Computer time-shared mainframe computer system" }
   ],
   [
     110,
-    "PLATO"
+    { name: "PLATO" }
   ],
   [
     20,
-    "Nintendo DS"
+    { name: "Nintendo DS" }
   ],
   [
     21,
-    "Nintendo GameCube"
+    { name: "Nintendo GameCube" }
   ],
   [
     61,
-    "Atari Lynx"
+    { name: "Atari Lynx" }
   ],
   [
     63,
-    "Atari ST/STE"
+    { name: "Atari ST/STE" }
   ],
   [
     73,
-    "BlackBerry OS"
+    { name: "BlackBerry OS" }
   ],
   [
     86,
-    "TurboGrafx-16/PC Engine"
+    { name: "TurboGrafx-16/PC Engine" }
   ],
   [
     111,
-    "Imlac PDS-1"
+    { name: "Imlac PDS-1" }
   ],
   [
     162,
-    "Oculus VR"
+    { name: "Oculus VR" }
   ]
-]);
+];
