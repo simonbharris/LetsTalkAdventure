@@ -1,4 +1,4 @@
-var platforms = new Map([
+module.exports = new Map([
   [
     3,
     "Linux"
