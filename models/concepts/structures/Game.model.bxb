@@ -1,0 +1,52 @@
+structure (Game) {
+  description (Contains information about a video game)
+  
+  // Required
+  property (name) {
+    type(Name)
+    min(Required) max (One)
+  }
+  
+  // Optional
+  property (cover) {
+    type (Cover)
+    min (Optional) max (One)
+  }
+  property (summary) {
+    type(Summary)
+    min (Optional) max (One)
+  }
+  property(genres) {
+    type(Genres)
+    min(Optional) max(Many)
+  }
+  property (platforms) {
+    type(Platforms)
+    min (Optional) max (Many)
+  }
+  property (keyword) {
+    type(Keywords)
+    min(Optional) max(Many)
+  }
+  property(themes) {
+    type(Themes)
+    min(Optional) max(Many)
+  }
+  property (totalRating) {
+    type(TotalRating)
+    min(Optional) max(One)
+  }
+  property (totalRatingCount) {
+    type(TotalRatingCount)
+    min (Optional) max (One)
+  }
+  property (url) {
+    type(URL)
+    min(Optional) max (One)
+  }
+  features {
+    preferable {
+      preference (platforms)
+    }
+  }
+}

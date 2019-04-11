@@ -1,0 +1,22 @@
+// vocab (Genres) {
+//   "Point-and-click" { "Point and click "}
+//   "Fighting" { "Fighting" }
+//   "Shooter" { "Shooter" "First Person Shooter" "FPS" "F P S" "Third Person Shooter" }
+//   "Music" { "Music" "Musical" }
+//   "Platform" {"Platform" "Platformer"}
+//   "Puzzle" {"Puzzle"}
+//   "Racing" {"Racing" "Race"}
+//   "Real Time Strategy (RTS)"{ "r t s" "real time strategy" "RTS"}
+//   "Role-playing (RPG)" { "R P G" "rpg" "role playing" "role play" "role playing game"}
+//   "Simulator"{ "Simulator" "simulation" "sim"}
+//   "Sport"{"Sport" "sports"}
+//   "Strategy"{ "Strategy"}
+//   "Turn-based strategy (TBS)" { "Turned-based strategy" "T B S" }
+//   "Tactical"{"Tactical"}
+//   "Hack and slash/Beat 'em up" {"Hack and slash" "Beat them up" "beat 'em up" "Beat M up"}
+//   "Quiz/Trivia" {"Quiz" "trivia"}
+//   "Pinball"{"Pinball"}
+//   "Adventure"{ "Adventure" }
+//   "Indie" { "Indie"}
+//   "Arcade" {"Arcade"}
+// }

@@ -1,0 +1,23 @@
+vocab (Themes) {
+    "Action" { "Action" }
+    "Fantasy" { "Fantasy" }
+    "Science fiction" { "Science Fiction" "Sci-fi"}
+    "Horror" { "Horror" "Horrifying" "Spooky" }
+    "Thriller" { "Thriller" "Thrilling" }
+    "Survival" { "Survival" }
+    "Historical" { "Historical" "History" }
+    "Stealth" { "Stealth" "Sneaky" }
+    "Comedy" { "Comedy" "Humorous" "humor" }
+    "Business" { "Business" }
+    "Drama" { "Drama" }
+    "Non-fiction" { "Non-fiction" }
+    "Sandbox" { "Sandbox" }
+    "Educational" { "Educational" "Education" }
+    "Kids" { "Kids" "kid" }
+    "Open world" { "Open world" }
+    "Warfare" { "Warfare" "War" }
+    "Party" { "Party" }
+    "4X (explore, expand, exploit, and exterminate)" { "4X" }
+    "Erotic" { "Erotic" }
+    "Mystery" { "Mystery" }
+}

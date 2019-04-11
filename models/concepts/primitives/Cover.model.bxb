@@ -1,0 +1,5 @@
+// IGDB's call on the Game API returns a cover ID, which needs to be queried for the image URL
+structure (Cover) {
+  description (Cover image of a video game)
+  extends (viv.core.BaseImage)
+}

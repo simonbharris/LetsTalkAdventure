@@ -1,0 +1,23 @@
+action (FindGame) {
+  description (Finds a game)
+  type (Search)
+  collect {
+    input (name) {
+      type (Name)
+      min (Optional) max (One)
+    }
+    input (platforms) {
+      type (Platforms)
+      min (Optional) max (Many)
+    }
+    input (genres) {
+      type (Genres)
+      min (Optional) max (Many)
+    }
+    input (themes) {
+      type(Themes)
+      min (Optional) max (Many)
+    }
+  }
+  output (Game)
+}

@@ -1,3 +1,0 @@
-// https://api.igdb.com/
-// for igdb
-c6698aec17ddf5fa4dcf478a001a2b3e
