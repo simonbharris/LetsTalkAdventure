@@ -1,622 +1,622 @@
-module.exports = [
-  {
-    "id": 3,
-    "name": "Linux"
-  },
-  {
-    "id": 6,
-    "name": "PC (Microsoft Windows)"
-  },
-  {
-    "id": 7,
-    "name": "PlayStation"
-  },
-  {
-    "id": 8,
-    "name": "PlayStation 2"
-  },
-  {
-    "id": 9,
-    "name": "PlayStation 3"
-  },
-  {
-    "id": 19,
-    "name": "Super Nintendo Entertainment System (SNES)"
-  },
-  {
-    "id": 25,
-    "name": "Amstrad CPC"
-  },
-  {
-    "id": 27,
-    "name": "MSX"
-  },
-  {
-    "id": 39,
-    "name": "iOS"
-  },
-  {
-    "id": 44,
-    "name": "Tapwave Zodiac"
-  },
-    {
-    "id": 75,
-    "name": "Apple II"
-  },
-  {
-    "id": 80,
-    "name": "Neo Geo AES"
-  },
-  {
-    "id": 68,
-    "name": "ColecoVision"
-  },
-  {
-    "id": 74,
-    "name": "Windows Phone"
-  },
-  {
-    "id": 94,
-    "name": "Commodore Plus/4"
-  },
-  {
-    "id": 96,
-    "name": "PDP-10"
-  },
-  {
-    "id": 123,
-    "name": "WonderSwan Color"
-  },
-  {
-    "id": 129,
-    "name": "Texas Instruments TI-99"
-  },
-  {
-    "id": 133,
-    "name": "Philips Videopac G7000"
-  },
-  {
-    "id": 134,
-    "name": "Acorn Electron"
-  },
-   {
-    "id": 156,
-    "name": "Thomson MO5"
-  },
-  {
-    "id": 160,
-    "name": "Nintendo eShop"
-  },
-  {
-    "id": 163,
-    "name": "SteamVR"
-  },
-  {
-    "id": 11,
-    "name": "Xbox"
-  },
-  {
-    "id": 88,
-    "name": "Odyssey"
-  },
-  {
-    "id": 90,
-    "name": "Commodore PET"
-  },
-  {
-    "id": 144,
-    "name": "AY-3-8710"
-  },
-  {
-    "id": 12,
-    "name": "Xbox 360"
-  },
-  {
-    "id": 146,
-    "name": "AY-3-8605"
-  },
-  {
-    "id": 14,
-    "name": "Mac"
-  },
-    {
-    "id": 15,
-    "name": "Commodore C64/128"
-  },
-  {
-    "id": 48,
-    "name": "PlayStation 4"
-  },
-  {
-    "id": 97,
-    "name": "PDP-8"
-  },
-  {
-    "id": 147,
-    "name": "AY-3-8606"
-  },
-  {
-    "id": 164,
-    "name": "Daydream"
-  },
-  {
-    "id": 51,
-    "name": "Family Computer Disk System"
-  },
-  {
-    "id": 165,
-    "name": "PlayStation VR"
-  },
-  {
-    "id": 115,
-    "name": "Apple IIGS"
-  },
-  {
-    "id": 118,
-    "name": "FM Towns"
-  },
-  {
-    "id": 67,
-    "name": "Intellivision"
-  },
-    {
-    "id": 71,
-    "name": "Commodore VIC-20"
-  },
-  {
-    "id": 120,
-    "name": "Neo Geo Pocket Color"
-  },
-  {
-    "id": 126,
-    "name": "TRS-80"
-  },
-  {
-    "id": 128,
-    "name": "PC Engine SuperGrafx"
-  },
-  {
-    "id": 135,
-    "name": "Hyper Neo Geo 64"
-  },
-  {
-    "id": 72,
-    "name": "Ouya"
-  },
-  {
-    "id": 91,
-    "name": "Bally Astrocade"
-  },
-  {
-    "id": 136,
-    "name": "Neo Geo CD"
-  },
-  {
-    "id": 142,
-    "name": "PC-50X Family"
-  },
-  {
-    "id": 4,
-    "name": "Nintendo 64"
-  },
-    {
-    "id": 34,
-    "name": "Android"
-  },
-  {
-    "id": 35,
-    "name": "Sega Game Gear"
-  },
-  {
-    "id": 148,
-    "name": "AY-3-8607"
-  },
-  {
-    "id": 36,
-    "name": "Xbox Live Arcade"
-  },
-  {
-    "id": 53,
-    "name": "MSX2"
-  },
-  {
-    "id": 56,
-    "name": "WiiWare"
-  },
-  {
-    "id": 57,
-    "name": "WonderSwan"
-  },
-  {
-    "id": 60,
-    "name": "Atari 7800"
-  },
-  {
-    "id": 62,
-    "name": "Atari Jaguar"
-  },
-  {
-    "id": 65,
-    "name": "Atari 8-bit"
-  },
-    {
-    "id": 66,
-    "name": "Atari 5200"
-  },
-  {
-    "id": 87,
-    "name": "Virtual Boy"
-  },
-  {
-    "id": 92,
-    "name": "SteamOS"
-  },
-  {
-    "id": 98,
-    "name": "DEC GT40"
-  },
-  {
-    "id": 105,
-    "name": "HP 3000"
-  },
-  {
-    "id": 124,
-    "name": "SwanCrystal"
-  },
-  {
-    "id": 127,
-    "name": "Fairchild Channel F"
-  },
-  {
-    "id": 149,
-    "name": "PC-98"
-  },
-  {
-    "id": 131,
-    "name": "Nintendo PlayStation"
-  },
-  {
-    "id": 158,
-    "name": "Commodore CDTV"
-  },
-    {
-    "id": 38,
-    "name": "PlayStation Portable"
-  },
-  {
-    "id": 5,
-    "name": "Wii"
-  },
-  {
-    "id": 13,
-    "name": "PC DOS"
-  },
-  {
-    "id": 22,
-    "name": "Game Boy Color"
-  },
-  {
-    "id": 23,
-    "name": "Dreamcast"
-  },
-  {
-    "id": 89,
-    "name": "Microvision"
-  },
-  {
-    "id": 24,
-    "name": "Game Boy Advance"
-  },
-  {
-    "id": 26,
-    "name": "ZX Spectrum"
-  },
-  {
-    "id": 46,
-    "name": "PlayStation Vita"
-  },
-  {
-    "id": 33,
-    "name": "Game Boy"
-  },
-    {
-    "id": 41,
-    "name": "Wii U"
-  },
-  {
-    "id": 42,
-    "name": "N-Gage"
-  },
-  {
-    "id": 45,
-    "name": "PlayStation Network"
-  },
-  {
-    "id": 47,
-    "name": "Virtual Console (Nintendo)"
-  },
-  {
-    "id": 50,
-    "name": "3DO Interactive Multiplayer"
-  },
-  {
-    "id": 52,
-    "name": "Arcade"
-  },
-  {
-    "id": 55,
-    "name": "Mobile"
-  },
-  {
-    "id": 58,
-    "name": "Super Famicom"
-  },
-  {
-    "id": 69,
-    "name": "BBC Microcomputer System"
-  },
-  {
-    "id": 70,
-    "name": "Vectrex"
-  },
-    {
-    "id": 95,
-    "name": "PDP-1"
-  },
-  {
-    "id": 108,
-    "name": "PDP-11"
-  },
-  {
-    "id": 112,
-    "name": "Microcomputer"
-  },
-  {
-    "id": 119,
-    "name": "Neo Geo Pocket"
-  },
-  {
-    "id": 125,
-    "name": "PC-8801"
-  },
-  {
-    "id": 138,
-    "name": "VC 4000"
-  },
-  {
-    "id": 150,
-    "name": "Turbografx-16/PC Engine CD"
-  },
-  {
-    "id": 155,
-    "name": "Tatung Einstein"
-  },
-  {
-    "id": 159,
-    "name": "Nintendo DSi"
-  },
-  {
-    "id": 166,
-    "name": "Pokémon mini"
-  },
-    {
-    "id": 152,
-    "name": "FM-7"
-  },
-  {
-    "id": 16,
-    "name": "Amiga"
-  },
-  {
-    "id": 29,
-    "name": "Sega Mega Drive/Genesis"
-  },
-  {
-    "id": 130,
-    "name": "Nintendo Switch"
-  },
-  {
-    "id": 30,
-    "name": "Sega 32X"
-  },
-  {
-    "id": 37,
-    "name": "Nintendo 3DS"
-  },
-  {
-    "id": 49,
-    "name": "Xbox One"
-  },
-  {
-    "id": 78,
-    "name": "Sega CD"
-  },
-  {
-    "id": 84,
-    "name": "SG-1000"
-  },
-  {
-    "id": 85,
-    "name": "Donner Model 30"
-  },
-  {
-    "id": 132,
-    "name": "Amazon Fire TV"
-  },
-  {
-    "id": 101,
-    "name": "Ferranti Nimrod Computer"
-  },
-  {
-    "id": 137,
-    "name": "New Nintendo 3DS"
-  },
-  {
-    "id": 106,
-    "name": "SDS Sigma 7"
-  },
-  {
-    "id": 109,
-    "name": "CDC Cyber 70"
-  },
-  {
-    "id": 139,
-    "name": "1292 Advanced Programmable Video System"
-  },
-  {
-    "id": 153,
-    "name": "Dragon 32/64"
-  },
-  {
-    "id": 154,
-    "name": "Amstrad PCW"
-  },
-  {
-    "id": 140,
-    "name": "AY-3-8500"
-  },
-  {
-    "id": 143,
-    "name": "AY-3-8760"
-  },
-    {
-    "id": 114,
-    "name": "Amiga CD32"
-  },
-  {
-    "id": 145,
-    "name": "AY-3-8603"
-  },
-  {
-    "id": 151,
-    "name": "TRS-80 Color Computer"
-  },
-  {
-    "id": 161,
-    "name": "Windows Mixed Reality"
-  },
-  {
-    "id": 116,
-    "name": "Acorn Archimedes"
-  },
-  {
-    "id": 167,
-    "name": "PlayStation 5"
-  },
-  {
-    "id": 82,
-    "name": "Web browser"
-  },
-  {
-    "id": 122,
-    "name": "Nuon"
-  },
-  {
-    "id": 113,
-    "name": "OnLive Game System"
-  },
-  {
-    "id": 117,
-    "name": "Philips CD-i"
-  },
-    {
-    "id": 18,
-    "name": "Nintendo Entertainment System (NES)"
-  },
-  {
-    "id": 32,
-    "name": "Sega Saturn"
-  },
-  {
-    "id": 59,
-    "name": "Atari 2600"
-  },
-  {
-    "id": 64,
-    "name": "Sega Master System"
-  },
-  {
-    "id": 121,
-    "name": "Sharp X68000"
-  },
-  {
-    "id": 141,
-    "name": "AY-3-8610"
-  },
-  {
-    "id": 157,
-    "name": "NEC PC-6000 Series"
-  },
-  {
-    "id": 77,
-    "name": "Sharp X1"
-  },
-  {
-    "id": 79,
-    "name": "Neo Geo MVS"
-  },
-  {
-    "id": 93,
-    "name": "Commodore 16"
-  },
-    {
-    "id": 99,
-    "name": "Family Computer (FAMICOM)"
-  },
-  {
-    "id": 100,
-    "name": "Analogue electronics"
-  },
-  {
-    "id": 102,
-    "name": "EDSAC"
-  },
-  {
-    "id": 103,
-    "name": "PDP-7"
-  },
-  {
-    "id": 104,
-    "name": "HP 2100"
-  },
-  {
-    "id": 107,
-    "name": "Call-A-Computer time-shared mainframe computer system"
-  },
-  {
-    "id": 110,
-    "name": "PLATO"
-  },
-  {
-    "id": 20,
-    "name": "Nintendo DS"
-  },
-  {
-    "id": 21,
-    "name": "Nintendo GameCube"
-  },
-  {
-    "id": 61,
-    "name": "Atari Lynx"
-  },
-  {
-    "id": 63,
-    "name": "Atari ST/STE"
-  },
-  {
-    "id": 73,
-    "name": "BlackBerry OS"
-  },
-  {
-    "id": 86,
-    "name": "TurboGrafx-16/PC Engine"
-  },
-  {
-    "id": 111,
-    "name": "Imlac PDS-1"
-  },
-  {
-    "id": 162,
-    "name": "Oculus VR"
-  }
-]
+var platforms = new Map([
+  [
+    3,
+    "Linux"
+  ],
+  [
+    6,
+    "PC (Microsoft Windows)"
+  ],
+  [
+    7,
+    "PlayStation"
+  ],
+  [
+    8,
+    "PlayStation 2"
+  ],
+  [
+    9,
+    "PlayStation 3"
+  ],
+  [
+    19,
+    "Super Nintendo Entertainment System (SNES)"
+  ],
+  [
+    25,
+    "Amstrad CPC"
+  ],
+  [
+    27,
+    "MSX"
+  ],
+  [
+    39,
+    "iOS"
+  ],
+  [
+    44,
+    "Tapwave Zodiac"
+  ],
+    [
+    75,
+    "Apple II"
+  ],
+  [
+    80,
+    "Neo Geo AES"
+  ],
+  [
+    68,
+    "ColecoVision"
+  ],
+  [
+    74,
+    "Windows Phone"
+  ],
+  [
+    94,
+    "Commodore Plus/4"
+  ],
+  [
+    96,
+    "PDP-10"
+  ],
+  [
+    123,
+    "WonderSwan Color"
+  ],
+  [
+    129,
+    "Texas Instruments TI-99"
+  ],
+  [
+    133,
+    "Philips Videopac G7000"
+  ],
+  [
+    134,
+    "Acorn Electron"
+  ],
+   [
+    156,
+    "Thomson MO5"
+  ],
+  [
+    160,
+    "Nintendo eShop"
+  ],
+  [
+    163,
+    "SteamVR"
+  ],
+  [
+    11,
+    "Xbox"
+  ],
+  [
+    88,
+    "Odyssey"
+  ],
+  [
+    90,
+    "Commodore PET"
+  ],
+  [
+    144,
+    "AY-3-8710"
+  ],
+  [
+    12,
+    "Xbox 360"
+  ],
+  [
+    146,
+    "AY-3-8605"
+  ],
+  [
+    14,
+    "Mac"
+  ],
+    [
+    15,
+    "Commodore C64/128"
+  ],
+  [
+    48,
+    "PlayStation 4"
+  ],
+  [
+    97,
+    "PDP-8"
+  ],
+  [
+    147,
+    "AY-3-8606"
+  ],
+  [
+    164,
+    "Daydream"
+  ],
+  [
+    51,
+    "Family Computer Disk System"
+  ],
+  [
+    165,
+    "PlayStation VR"
+  ],
+  [
+    115,
+    "Apple IIGS"
+  ],
+  [
+    118,
+    "FM Towns"
+  ],
+  [
+    67,
+    "Intellivision"
+  ],
+    [
+    71,
+    "Commodore VIC-20"
+  ],
+  [
+    120,
+    "Neo Geo Pocket Color"
+  ],
+  [
+    126,
+    "TRS-80"
+  ],
+  [
+    128,
+    "PC Engine SuperGrafx"
+  ],
+  [
+    135,
+    "Hyper Neo Geo 64"
+  ],
+  [
+    72,
+    "Ouya"
+  ],
+  [
+    91,
+    "Bally Astrocade"
+  ],
+  [
+    136,
+    "Neo Geo CD"
+  ],
+  [
+    142,
+    "PC-50X Family"
+  ],
+  [
+    4,
+    "Nintendo 64"
+  ],
+    [
+    34,
+    "Android"
+  ],
+  [
+    35,
+    "Sega Game Gear"
+  ],
+  [
+    148,
+    "AY-3-8607"
+  ],
+  [
+    36,
+    "Xbox Live Arcade"
+  ],
+  [
+    53,
+    "MSX2"
+  ],
+  [
+    56,
+    "WiiWare"
+  ],
+  [
+    57,
+    "WonderSwan"
+  ],
+  [
+    60,
+    "Atari 7800"
+  ],
+  [
+    62,
+    "Atari Jaguar"
+  ],
+  [
+    65,
+    "Atari 8-bit"
+  ],
+    [
+    66,
+    "Atari 5200"
+  ],
+  [
+    87,
+    "Virtual Boy"
+  ],
+  [
+    92,
+    "SteamOS"
+  ],
+  [
+    98,
+    "DEC GT40"
+  ],
+  [
+    105,
+    "HP 3000"
+  ],
+  [
+    124,
+    "SwanCrystal"
+  ],
+  [
+    127,
+    "Fairchild Channel F"
+  ],
+  [
+    149,
+    "PC-98"
+  ],
+  [
+    131,
+    "Nintendo PlayStation"
+  ],
+  [
+    158,
+    "Commodore CDTV"
+  ],
+    [
+    38,
+    "PlayStation Portable"
+  ],
+  [
+    5,
+    "Wii"
+  ],
+  [
+    13,
+    "PC DOS"
+  ],
+  [
+    22,
+    "Game Boy Color"
+  ],
+  [
+    23,
+    "Dreamcast"
+  ],
+  [
+    89,
+    "Microvision"
+  ],
+  [
+    24,
+    "Game Boy Advance"
+  ],
+  [
+    26,
+    "ZX Spectrum"
+  ],
+  [
+    46,
+    "PlayStation Vita"
+  ],
+  [
+    33,
+    "Game Boy"
+  ],
+    [
+    41,
+    "Wii U"
+  ],
+  [
+    42,
+    "N-Gage"
+  ],
+  [
+    45,
+    "PlayStation Network"
+  ],
+  [
+    47,
+    "Virtual Console (Nintendo)"
+  ],
+  [
+    50,
+    "3DO Interactive Multiplayer"
+  ],
+  [
+    52,
+    "Arcade"
+  ],
+  [
+    55,
+    "Mobile"
+  ],
+  [
+    58,
+    "Super Famicom"
+  ],
+  [
+    69,
+    "BBC Microcomputer System"
+  ],
+  [
+    70,
+    "Vectrex"
+  ],
+    [
+    95,
+    "PDP-1"
+  ],
+  [
+    108,
+    "PDP-11"
+  ],
+  [
+    112,
+    "Microcomputer"
+  ],
+  [
+    119,
+    "Neo Geo Pocket"
+  ],
+  [
+    125,
+    "PC-8801"
+  ],
+  [
+    138,
+    "VC 4000"
+  ],
+  [
+    150,
+    "Turbografx-16/PC Engine CD"
+  ],
+  [
+    155,
+    "Tatung Einstein"
+  ],
+  [
+    159,
+    "Nintendo DSi"
+  ],
+  [
+    166,
+    "Pokémon mini"
+  ],
+    [
+    152,
+    "FM-7"
+  ],
+  [
+    16,
+    "Amiga"
+  ],
+  [
+    29,
+    "Sega Mega Drive/Genesis"
+  ],
+  [
+    130,
+    "Nintendo Switch"
+  ],
+  [
+    30,
+    "Sega 32X"
+  ],
+  [
+    37,
+    "Nintendo 3DS"
+  ],
+  [
+    49,
+    "Xbox One"
+  ],
+  [
+    78,
+    "Sega CD"
+  ],
+  [
+    84,
+    "SG-1000"
+  ],
+  [
+    85,
+    "Donner Model 30"
+  ],
+  [
+    132,
+    "Amazon Fire TV"
+  ],
+  [
+    101,
+    "Ferranti Nimrod Computer"
+  ],
+  [
+    137,
+    "New Nintendo 3DS"
+  ],
+  [
+    106,
+    "SDS Sigma 7"
+  ],
+  [
+    109,
+    "CDC Cyber 70"
+  ],
+  [
+    139,
+    "1292 Advanced Programmable Video System"
+  ],
+  [
+    153,
+    "Dragon 32/64"
+  ],
+  [
+    154,
+    "Amstrad PCW"
+  ],
+  [
+    140,
+    "AY-3-8500"
+  ],
+  [
+    143,
+    "AY-3-8760"
+  ],
+    [
+    114,
+    "Amiga CD32"
+  ],
+  [
+    145,
+    "AY-3-8603"
+  ],
+  [
+    151,
+    "TRS-80 Color Computer"
+  ],
+  [
+    161,
+    "Windows Mixed Reality"
+  ],
+  [
+    116,
+    "Acorn Archimedes"
+  ],
+  [
+    167,
+    "PlayStation 5"
+  ],
+  [
+    82,
+    "Web browser"
+  ],
+  [
+    122,
+    "Nuon"
+  ],
+  [
+    113,
+    "OnLive Game System"
+  ],
+  [
+    117,
+    "Philips CD-i"
+  ],
+    [
+    18,
+    "Nintendo Entertainment System (NES)"
+  ],
+  [
+    32,
+    "Sega Saturn"
+  ],
+  [
+    59,
+    "Atari 2600"
+  ],
+  [
+    64,
+    "Sega Master System"
+  ],
+  [
+    121,
+    "Sharp X68000"
+  ],
+  [
+    141,
+    "AY-3-8610"
+  ],
+  [
+    157,
+    "NEC PC-6000 Series"
+  ],
+  [
+    77,
+    "Sharp X1"
+  ],
+  [
+    79,
+    "Neo Geo MVS"
+  ],
+  [
+    93,
+    "Commodore 16"
+  ],
+    [
+    99,
+    "Family Computer (FAMICOM)"
+  ],
+  [
+    100,
+    "Analogue electronics"
+  ],
+  [
+    102,
+    "EDSAC"
+  ],
+  [
+    103,
+    "PDP-7"
+  ],
+  [
+    104,
+    "HP 2100"
+  ],
+  [
+    107,
+    "Call-A-Computer time-shared mainframe computer system"
+  ],
+  [
+    110,
+    "PLATO"
+  ],
+  [
+    20,
+    "Nintendo DS"
+  ],
+  [
+    21,
+    "Nintendo GameCube"
+  ],
+  [
+    61,
+    "Atari Lynx"
+  ],
+  [
+    63,
+    "Atari ST/STE"
+  ],
+  [
+    73,
+    "BlackBerry OS"
+  ],
+  [
+    86,
+    "TurboGrafx-16/PC Engine"
+  ],
+  [
+    111,
+    "Imlac PDS-1"
+  ],
+  [
+    162,
+    "Oculus VR"
+  ]
+]);
