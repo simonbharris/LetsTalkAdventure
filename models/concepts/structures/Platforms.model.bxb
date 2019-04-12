@@ -1,0 +1,11 @@
+structure (Platforms) {
+  description (Contains information on a platform)
+  property (id) {
+    type (ID)
+    min (Required) max (One)
+  }
+  property (name) {
+    type (Name)
+    min (Required) max (One)
+  }
+}

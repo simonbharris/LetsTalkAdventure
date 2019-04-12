@@ -1,0 +1,11 @@
+structure (Themes) {
+  description (Contains information on a theme)
+  property (id) {
+    type (ID)
+    min (Required) max (One)
+  }
+  property (name) {
+    type (Name)
+    min (Required) max (One)
+  }
+}

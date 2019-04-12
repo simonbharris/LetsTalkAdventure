@@ -1,4 +1,4 @@
-enum (Themes) {
+enum (ThemeNames) {
   description (Theme of a game, Ie: Fantasy)
   symbol(Action)
   symbol(Fantasy)

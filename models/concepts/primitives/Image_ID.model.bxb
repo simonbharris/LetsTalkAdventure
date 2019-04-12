@@ -1,0 +1,3 @@
+text (Image_ID) {
+  description (The hashed value of an image)
+}

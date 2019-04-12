@@ -1,4 +1,4 @@
-vocab (Themes) {
+vocab (ThemeNames) {
     "Action" { "Action" }
     "Fantasy" { "Fantasy" }
     "Science fiction" { "Science Fiction" "Sci-fi"}

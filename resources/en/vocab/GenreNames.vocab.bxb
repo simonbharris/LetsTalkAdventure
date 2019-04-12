@@ -1,4 +1,4 @@
-vocab (Genres) {
+vocab (GenreNames) {
   "Point-and-click" { "Point and click "}
   "Fighting" { "Fighting" }
   "Shooter" { "Shooter" "First Person Shooter" "FPS" "F P S" "Third Person Shooter" }

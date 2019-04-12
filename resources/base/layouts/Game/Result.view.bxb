@@ -1,0 +1,14 @@
+// result-view {
+//   match {
+//     Game(result)
+//   }
+//   render {
+//     if(size(result) == 1) {
+//       layout-macro (game-details) {
+//         param (game) {
+//           expression (result)
+//         }
+//       }
+//     }
+//   }
+// }

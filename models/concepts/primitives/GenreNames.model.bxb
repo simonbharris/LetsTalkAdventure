@@ -1,4 +1,4 @@
-enum (Genres) {
+enum (GenreNames) {
   description (A video game genre)
   symbol(Point-and-click)
   symbol(Fighting)

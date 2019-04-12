@@ -1,18 +1,5 @@
 endpoints {
   action-endpoints {
-    // action-endpoint (FindGame) {
-    //   accepted-inputs ()
-    //   remote-endpoint (https://api-v3.igdb.com/games/) {
-    //     headers {
-    //       header ("user-key: {api.key}") // ??????????????
-    //       header ("Accept:application/json") // Headers do not appear to be adding in the POST request
-    //     }
-    //     body {
-    //       template ("fields name, platforms, genres, themes")
-    //     }
-    //     method (POST)
-    //   }
-    // }
     action-endpoint (FindGame) {
       accepted-inputs (name, platforms, themes, genres)
       local-endpoint ("find/FindGames.js")

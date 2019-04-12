@@ -5,6 +5,8 @@ var console = require('console')
 const platformsLib = require("./lib/platformsLib.js")
 const themesLib = require("./lib/themesLib.js")
 const genresLib = require("./lib/genresLib.js")
+const gameFields = "fields name, platforms.name, genres.name, themes.name, cover.image_id, summary, total_rating, total_rating_count, url;"
+
 
 function pairIds(ids, group) {
   var result = [];
@@ -23,12 +25,8 @@ function convertToGames(apiObj)
 {
   var result = [];
     apiObj.forEach(function(o) {
-    result.push({
-      name: o.name,
-      platforms: pairIds(o.platforms, platformsLib),
-      themes: pairIds(o.themes, themesLib),
-      genres: pairIds(o.genres, genresLib),
-    })
+      console.log(o);
+    result.push(o)
       console.log("Pushing game with: " +o.platforms  + " " +  o.themes, + " " +   o.genres);
   });
   return result;
@@ -51,7 +49,7 @@ function simpleFieldSearch(fieldName, IDs, options)
 {
     var apiObj = JSON.parse(
                     http.postUrl(config.get('api.url') + "games/",
-                    "fields name, themes, platforms, genres;" + "where "+ fieldName +" = (" + IDs + ");",
+                    gameFields + "where "+ fieldName +" = (" + IDs + ");",
                     options))
     return convertToGames(apiObj);
   
@@ -68,7 +66,7 @@ module.exports.function = function findGames (name, platforms, themes, genres) {
     console.log("Name-only Route");
     var apiObj = JSON.parse(
                     http.postUrl(config.get('api.url') + "games/",
-                    "fields name, themes, platforms, genres;" + "search \"" + name + "\";",
+                    gameFields + "search \"" + name + "\";",
                     options))
     return convertToGames(apiObj);
   }
@@ -97,7 +95,7 @@ module.exports.function = function findGames (name, platforms, themes, genres) {
   }
 
   
-  var apiObj = JSON.parse(http.postUrl(config.get('api.url') + "games/", "fields name, themes, platforms, genres;", options))
+  var apiObj = JSON.parse(http.postUrl(config.get('api.url') + "games/", gameFields, options))
   var result = convertToGames(apiObj);  
   return result
 }

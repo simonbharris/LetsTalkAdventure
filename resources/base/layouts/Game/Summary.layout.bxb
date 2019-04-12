@@ -1,0 +1,23 @@
+layout-macro-def (game-summary){
+  params {
+    param (game) {
+      type (Game)
+      min (Required) max (One)
+    }
+  }
+  content {
+    image-card {
+      aspect-ratio (4:3)
+      image-url ("https://images.igdb.com/igdb/image/upload/t_cover_big/[#{value(game.cover.image_id)}].jpg")
+      title-area {
+        halign (Start)
+        slot1 {
+          text {
+            value ("#{value(game.name)}")
+            style (Title_L)
+          }
+        }
+      }
+    }
+  }
+}

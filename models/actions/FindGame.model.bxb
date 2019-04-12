@@ -7,15 +7,15 @@ action (FindGame) {
       min (Optional) max (One)
     }
     input (platforms) {
-      type (Platforms)
+      type (PlatformNames)
       min (Optional) max (Many)
     }
     input (genres) {
-      type (Genres)
+      type (GenreNames)
       min (Optional) max (Many)
     }
     input (themes) {
-      type(Themes)
+      type(ThemeNames)
       min (Optional) max (Many)
     }
   }

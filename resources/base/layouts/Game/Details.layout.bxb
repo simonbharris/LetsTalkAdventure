@@ -1,0 +1,112 @@
+layout-macro-def (game-details) {
+  params {
+    param (game) {
+      type (Game)
+      min (Required) max (One)
+    }
+  }
+  content {
+    section {
+      content {
+        image-card {
+          aspect-ratio(3:4)
+          image-url("https://images.igdb.com/igdb/image/upload/t_cover_big/[#{value(game.cover.image_id)}].jpg")
+          title-area {
+            slot1 {
+              text {
+                value ("")
+              }
+            }
+          }
+        }
+        title-area {
+          halign (Center)
+          slot1 {
+            text {
+              value("#{value(game.name)}")
+              style(Title_L)
+            }
+          }
+          slot2 {
+            single-line {
+              text {
+                value ("Rated: #{number(game.total_rating, '#,##0.0')} | By: #{value(game.total_rating_count)} users")
+                style (Title_XS)
+              }
+            }
+          }
+        }
+        paragraph {
+          value ("#{value(game.summary)}")
+          style(Detail_M)
+        }
+        divider
+        single-line {
+          text {
+            value("Platforms")
+            style (Detail_M)
+          }
+        }
+        for-each (game.platforms) {
+          as (platform) {
+            single-line {
+              text {
+                value ("#{value(platform.name)}")
+                style (Detail_M_Soft)
+              }
+            }
+          }
+        }
+        
+        divider
+        single-line {
+          text {
+            value("Genres")
+            style (Detail_M)
+          }
+        }
+        for-each (game.genres) {
+          as (genre) {
+            single-line {
+              text {
+                value ("#{value(genre.name)}")
+                style (Detail_M_Soft)
+              }
+            }
+          }
+        }
+                
+        divider
+        single-line {
+          text {
+            value("Themes")
+            style (Detail_M)
+          }
+        }
+        for-each (game.themes) {
+          as (theme) {
+            single-line {
+              text {
+                value ("#{value(theme.name)}")
+                style (Detail_M_Soft)
+              }
+            }
+          }
+        }
+        divider
+        single-line {
+          text {
+            value("Websites")
+            style (Detail_M)
+          }
+        }
+        single-line {
+          text {
+            value("IGDB #{value(game.url)})")
+            style (Detail_M)
+          }
+        }
+      }
+    }
+  }
+}

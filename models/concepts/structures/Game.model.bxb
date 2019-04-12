@@ -2,6 +2,10 @@ structure (Game) {
   description (Contains information about a video game)
   
   // Required
+  property (id) {
+    type (ID)
+    min (Required) max (One)
+  }
   property (name) {
     type(Name)
     min(Required) max (One)
@@ -32,21 +36,16 @@ structure (Game) {
     type(Themes)
     min(Optional) max(Many)
   }
-  property (totalRating) {
+  property (total_rating) {
     type(TotalRating)
     min(Optional) max(One)
   }
-  property (totalRatingCount) {
+  property (total_rating_count) {
     type(TotalRatingCount)
     min (Optional) max (One)
   }
   property (url) {
     type(URL)
     min(Optional) max (One)
-  }
-  features {
-    preferable {
-      preference (platforms)
-    }
   }
 }
