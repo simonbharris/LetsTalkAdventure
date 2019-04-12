@@ -14,7 +14,7 @@ endpoints {
     //   }
     // }
     action-endpoint (FindGame) {
-      accepted-inputs (name, platforms)
+      accepted-inputs (name, platforms, themes, genres)
       local-endpoint ("find/FindGames.js")
     }
   }
