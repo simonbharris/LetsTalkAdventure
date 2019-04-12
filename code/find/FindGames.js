@@ -70,14 +70,14 @@ module.exports.function = function findGames (name, platforms, themes) {
     return convertToGames(apiObj);
   }
   
-  if (themes) {
-    var platformIds = getThemeID(themes)
-    var apiObj = JSON.parse(
-                    http.postUrl(config.get('api.url') + "games/",
-                    "fields name, themes, platforms, genres;" + "where platforms = (" + platformIds + ");",
-                    options))
-    return convertToGames(apiObj);
-  }
+  // if (themes) {
+  //   var platformIds = getThemeID(themes)
+  //   var apiObj = JSON.parse(
+  //                   http.postUrl(config.get('api.url') + "games/",
+  //                   "fields name, themes, platforms, genres;" + "where platforms = (" + platformIds + ");",
+  //                   options))
+  //   return convertToGames(apiObj);
+  // }
   
   if (platforms) {
     var platformIds = getPlatformID(platforms)

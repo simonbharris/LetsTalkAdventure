@@ -1,0 +1,3 @@
+integer (TotalRatingCount) {
+  description (Average rating of IGDB users and critic scores)
+}
