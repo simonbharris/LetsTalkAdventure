@@ -100,7 +100,7 @@ module.exports = [
   [
     25,
     {
-    	name: "Hack and slash/Beat \u0027em up",
+    	name: "Hack and slash/Beat 'em up",
     	url: "https://www.igdb.com/genres/hack-and-slash-beat-em-up"
     }
   ],

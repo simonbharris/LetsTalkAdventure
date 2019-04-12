@@ -1,0 +1,5 @@
+train (t-4s3qtcy7euv2elm5mlj4kmq6s) {
+  utterance ("[g:FindGame] find a game called (Apex Legends)[v:Name]")
+  plan (Y2BmkCrISaxML8ovzUvRS0/MTXXLzEtJLdJzBzIZ5LDLgSiwPA69fiA5JgZGIGYAkowMIADlAwA=)
+  last-modified (1555019331968)
+}
