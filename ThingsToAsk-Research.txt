@@ -1,7 +1,0 @@
-Tried to implement HTTP POST requests using Bixby's end-points
-	(See resources/base/findGame.endpoints.bxb)
-	The headers do not seem to be attaching properly, htus our API key is not getting through.
-
-	Currently have a solution implemented using JavaScript
-
-	Even if we did have Bixby's version working. I am not sure how to pair the IDs handed to us into enums or strings through bixby's method.
