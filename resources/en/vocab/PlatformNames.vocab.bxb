@@ -1,0 +1,26 @@
+vocab (PlatformNames) {
+  "Linux" { "linux" }
+  "PC (Microsoft Windows)" { "p c" "pc" "computer" "personal computer" "windows" "microsoft windows" }
+  "Mac" {"mac" "Mac OS" "mac o s"}
+  "PlayStation" { "playstation" "playstation one" "playstation 1" "PS1" "p s 1" }
+  "PlayStation 2" { "playstation 2" "playstation two" "PS2" "p s 2" }
+  "PlayStation 3" { "playstation 3" "playstation three" "PS3" "p s 3" }
+  "PlayStation 4" { "playstation 4" "playstation four" "PS4" "p s 4" }
+  "PlayStation Portable" { "PSP" "p s p" "playstation portable" }
+  "PlayStation Vita" { "PS Vita" "playstation vita" "vita" }
+  "Nintendo Entertainment System (NES)" { "Nintendo" "Nintendo Entertainment System" "NES" "n e s" "NES" }
+  "Super Nintendo Entertainment System (SNES)" {"Super nintendo" "Super nintendo entertainment system" "snes" "s n e s"}
+  "Nintendo 64" {"Nintendo 64" "N 64" "64"}
+  "Nintendo GameCube" {"Gamecube" "game cube" "nintendo game cube"}
+  "Wii" {"Wii" "nintendo wii" "we"}
+  "Wii U" {"nintendo wii u" "wii u" "we you"}
+  "Nintendo Switch" {"nintendo switch" "switch"}
+  "Nintendo DS" { "Nintendo DS" "nintendo d s" "DS" "d s" }
+  "Nintendo 3DS" { "nintendo 3ds" "nintendo 3 ds" "3 ds" "3ds" }
+  "New Nintendo 3DS" { "new nintendo 3ds" "n3ds" "n 3ds" "n 3 ds" }
+  "Xbox" {"x box" "xbox" "Microsoft xbox"}
+  "Xbox 360" { "x box 360" "x box 3 60" "xbox 360" "360" "3 60" "three sixty" "xbox three sixty"}
+  "Xbox One" {"xbone" "xbox one" "xbox 1"}
+  "Android" {"android"}
+  "Mobile" {"mobile" "phone"}
+}

@@ -1,7 +1,7 @@
 vocab (ThemeNames) {
     "Action" { "Action" }
     "Fantasy" { "Fantasy" }
-    "Science fiction" { "Science Fiction" "Sci-fi"}
+    "Science fiction" { "science fiction" "Science Fiction" "Sci-fi"}
     "Horror" { "Horror" "Horrifying" "Spooky" }
     "Thriller" { "Thriller" "Thrilling" }
     "Survival" { "Survival" }

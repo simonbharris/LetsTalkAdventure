@@ -57,45 +57,44 @@ function simpleFieldSearch(fieldName, IDs, options)
 
 module.exports.function = function findGames (name, platforms, themes, genres) {
   var options = {}
+  var body = gameFields;
   options.headers = {
     "user-key": config.get('api.key')
   }
-  console.log("In findGames");
+  var url = config.get('api.url') + "games/";
+  
   // If name is supplied
-  if (name) {
-    console.log("Name-only Route");
-    var apiObj = JSON.parse(
-                    http.postUrl(config.get('api.url') + "games/",
-                    gameFields + "search \"" + name + "\";",
-                    options))
-    return convertToGames(apiObj);
+  if (name && name != "") {
+    body += "search \"" + name + "\";";
   }
   
-     
-  if (themes) {
-    console.log("Theme-only Route");
-    var themeIds = getEnumID(themes, themesLib)
-    var games = simpleFieldSearch("themes", themeIds, options);
-    return games;
-  } 
-  
-  if (genres) {
-    console.log("Genre-only route");
-    var genreIds = getEnumID(genres, genresLib);
-    var games = simpleFieldSearch("genres", genreIds, options);
-    return games;
-  }
+  if (themes != "" || platforms != "" || genres != "") {
+    console.log("Adding a where clause");
+    console.log("T: " + themes + ", G: " + genres + ", P: " + platforms)
+    body += " where ";
+    if (themes != "") {
+      console.log("Adding Themes");
+      body += "themes = ( " + getEnumID(themes, themesLib)+ ")";
+      if ( genres != "" || platforms != "" )
+        body += " & ";
+    } 
 
-  
-  if (platforms) {
-    console.log("Platform-only Route");
-    var platformIds = getEnumID(platforms, platformsLib)
-    var games = simpleFieldSearch("platforms", platformIds, options);
-    return games;
-  }
+    if (genres != "") {
+      console.log("Adding Genres");
+      body += "genres = ( " + getEnumID(genres, genresLib)+ ")";
+      if (platforms != "" )
+        body += " & ";
+    }
 
+
+    if (platforms != "") {
+      console.log("Adding Platforms");
+      body += "platforms = ( " + getEnumID(platforms, platformsLib)+ ")";
+    }
+    body += ";"
+  }
   
-  var apiObj = JSON.parse(http.postUrl(config.get('api.url') + "games/", gameFields, options))
+  var apiObj = JSON.parse(http.postUrl(config.get('api.url') + "games/", body, options))
   var result = convertToGames(apiObj);  
   return result
 }
