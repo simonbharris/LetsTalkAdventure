@@ -1,0 +1,9 @@
+enum (ReleaseState) {
+  description (Release state to filter with)
+  symbol(Released)
+  symbol(Beta)
+  symbol(Alpha)
+  symbol(Early Access)
+  symbol(Offline)
+  symbol(Cancelled)
+}

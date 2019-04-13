@@ -7,19 +7,19 @@ const themesLib = require("./lib/themesLib.js")
 const genresLib = require("./lib/genresLib.js")
 const gameFields = "fields name, platforms.name, genres.name, themes.name, cover.image_id, summary, total_rating, total_rating_count, url;"
 
-
-function pairIds(ids, group) {
-  var result = [];
-  
-  if (ids)
-    group.forEach(function (g) {
-      ids.forEach(function (id) {
-        if (g[0] == id)
-          result.push(g[1].name)
-      });
-    });
-  return result;
-}
+// 
+// function pairIds(ids, group) {
+//   var result = [];
+//   
+//   if (ids)
+//     group.forEach(function (g) {
+//       ids.forEach(function (id) {
+//         if (g[0] == id)
+//           result.push(g[1].name)
+//       });
+//     });
+//   return result;
+// }
 
 function convertToGames(apiObj)
 {
@@ -45,17 +45,15 @@ function getEnumID(userInput, group)
   return result;
 }
 
-function simpleFieldSearch(fieldName, IDs, options)
-{
-    var apiObj = JSON.parse(
-                    http.postUrl(config.get('api.url') + "games/",
-                    gameFields + "where "+ fieldName +" = (" + IDs + ");",
-                    options))
-    return convertToGames(apiObj);
-  
+function default_sort () {
+  return "sort popularity desc;"
 }
 
-module.exports.function = function findGames (name, platforms, themes, genres) {
+function default_limit() {
+  return "limit 20;"
+}
+
+module.exports.function = function findGames (name, platforms, themes, genres, sortFilter) {
   var options = {}
   var body = gameFields;
   options.headers = {
@@ -64,10 +62,13 @@ module.exports.function = function findGames (name, platforms, themes, genres) {
   var url = config.get('api.url') + "games/";
   
   // If name is supplied
+  // For some reason, name can be undefined or empty; so if its either we need to set things to false.
+  // Maybe there's a more visual-friendly way of doing this?
   if (name && name != "") {
     body += "search \"" + name + "\";";
   }
   
+  // Sort of string building a where clause for filtering.
   if (themes != "" || platforms != "" || genres != "") {
     console.log("Adding a where clause");
     console.log("T: " + themes + ", G: " + genres + ", P: " + platforms)
@@ -91,9 +92,15 @@ module.exports.function = function findGames (name, platforms, themes, genres) {
       console.log("Adding Platforms");
       body += "platforms = ( " + getEnumID(platforms, platformsLib)+ ")";
     }
-    body += ";"
+    body += "& themes != (42);" // Hardcoded a ban on erotic themes
   }
+  else
+    body += "where themes != (42);" // Hardcoded a ban on erotic themes (At least for demo purposes); otherwise these pop up in high popularity filters <.<;
   
+  body += default_sort()
+  body += default_limit();
+  
+  // Hitting IGDB's /games endpoint with a message body build off the above.
   var apiObj = JSON.parse(http.postUrl(config.get('api.url') + "games/", body, options))
   var result = convertToGames(apiObj);  
   return result

@@ -8,4 +8,11 @@ structure (Platforms) {
     type (Name)
     min (Required) max (One)
   }
+  features {
+    preferable {
+      preference (name) {
+        observation-alias (name)
+      }
+    }
+  }
 }

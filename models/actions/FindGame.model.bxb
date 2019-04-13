@@ -18,6 +18,22 @@ action (FindGame) {
       type(ThemeNames)
       min (Optional) max (Many)
     }
+    input (sortFilter)
+    {
+      type(SortFilter)
+      default-select  {
+        with-learning {
+          option (NoSharing)
+        }
+      }
+      min (Required) max (One)
+      default-init {
+        intent {
+          goal: SortFilter
+          value: SortFilter (Popularity)
+        }
+      }
+    }
   }
   output (Game)
 }

@@ -20,6 +20,10 @@ structure (Game) {
     type(Summary)
     min (Optional) max (One)
   }
+  property (status) {
+    type(ReleaseState)
+    min (Optional) max (One)
+  }
   property(genres) {
     type(Genres)
     min(Optional) max(Many)
