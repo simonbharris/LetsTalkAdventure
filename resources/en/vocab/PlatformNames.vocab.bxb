@@ -2,7 +2,7 @@ vocab (PlatformNames) {
   "Linux" { "linux" }
   "PC (Microsoft Windows)" { "p c" "pc" "computer" "personal computer" "windows" "microsoft windows" }
   "Mac" {"mac" "Mac OS" "mac o s"}
-  "PlayStation" { "playstation" "playstation one" "playstation 1" "PS1" "p s 1" }
+  "PlayStation" { "playstation one" "playstation 1" "PS1" "p s 1" }
   "PlayStation 2" { "playstation 2" "playstation two" "PS2" "p s 2" }
   "PlayStation 3" { "playstation 3" "playstation three" "PS3" "p s 3" }
   "PlayStation 4" { "playstation 4" "playstation four" "PS4" "p s 4" }

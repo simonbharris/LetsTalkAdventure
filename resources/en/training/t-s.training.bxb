@@ -1,0 +1,5 @@
+train (t-sv0yosudxo9ss0uhpkssp4aw7) {
+  utterance ("[g:FindGame] games releasing {[g:Duration] (next week)[v:time.DateTimeExpression]}")
+  plan (fYxRCsIwDIb/uukhFMQT9BRzvqsXCDSMQteOtBt6e7P6Og2EfMkXfhxwnAK9B0lzdHagkXsfHYu9KeK87dbxz3ezUPEp/vJ3DkyZHS7b/pGk9D4UFpwWv9jiR7YdFX4qXF+TcM5r/B4GOzRolaBs6m7wrVa7qZf69wE=)
+  last-modified (1555142932293)
+}

@@ -1,0 +1,5 @@
+vocab (SortFilter) {
+  "popularity" { "popularity" "trending" "popular" }
+  "total_rating" { "reviews" "rating" "rated" }
+  "release_dates" {"Latest" "new" "newest" "fresh" "release"}
+}

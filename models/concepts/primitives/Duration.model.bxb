@@ -1,0 +1,3 @@
+structure (Duration) {
+  role-of (time.DateTimeExpression)
+}

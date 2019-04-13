@@ -1,0 +1,3 @@
+boolean (Released) {
+  description (Filters for finding games with release dates before present)
+}

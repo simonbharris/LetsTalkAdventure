@@ -5,4 +5,15 @@ capsule {
   targets {
     target (bixby-mobile-en-US)
   }
+  
+  capsule-imports {
+    import (viv.entity) {
+      as (entity)
+      version (3.14.9)
+    }
+    import (viv.time) {
+      as (time)
+      version-from (entity)
+    }
+  }
 }

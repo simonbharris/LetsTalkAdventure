@@ -1,0 +1,5 @@
+train (t-wi70nvp30yoryqn56g8rgz828) {
+  utterance ("[g:FindGame] games for (playstation 4)[v:PlatformNames:'PlayStation 4']")
+  plan (Y2BhkCrISaxML8ovzUvRS0/MTXXLzEtJLdJzBzIZ5LDLgSiwvDJ2+YCcxJK0/KJcP6BQMYMCdkXB+UUlbpk5JalFDMwMjAxMQJIBSIMgBDCBRRkA)
+  last-modified (1555120969999)
+}

@@ -18,6 +18,20 @@ action (FindGame) {
       type(ThemeNames)
       min (Optional) max (Many)
     }
+    input (releasedSince) {
+      type(Duration)
+      min (Optional) max (One)
+    }
+    input (released) {
+      type(Released)
+      min (Required) max (One)
+      default-init {
+        intent {
+          goal: Released
+          value: Released (true)
+        }
+      }
+    }
     input (sortFilter)
     {
       type(SortFilter)
@@ -30,10 +44,23 @@ action (FindGame) {
       default-init {
         intent {
           goal: SortFilter
-          value: SortFilter (Popularity)
+          value: SortFilter (popularity)
         }
       }
     }
   }
-  output (Game)
+  output (Game) {
+    sort {
+      switch (sortFilter) {
+        case (total_rating) {
+          each (r) {
+            sorting(r.total_rating){
+              by (Desc)
+            }
+          }
+        }
+      }
+    }
+  }
 }
+

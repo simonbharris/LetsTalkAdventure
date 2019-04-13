@@ -1,6 +1,7 @@
 enum (SortFilter) {
   description (Primary filter to sort on. Select one)
-  symbol(Popularity)
-  symbol(Reviws)
-  symbol(Latest)
+  // lower case to more easily work with API
+  symbol(popularity)
+  symbol(total_rating) // top rated
+  symbol(release_dates) // "newest"
 }

@@ -1,0 +1,5 @@
+train (t-hbrssnbyqa1gqibnv269xe821) {
+  utterance ("[g:FindGame] look for (RPG)[v:GenreNames:'Role-playing (RPG)'] games")
+  plan (Y2BlkCrISaxML8ovzUvRS0/MTXXLzEtJLdJzBzIZ5LDLgSiwvAIOval5Ral+QH4xLhOCUnNSE4tTU3CZEJxfVOKWmVOSWsTAwsDIwMTADKQZgCwIhAEmsBwDAA==)
+  last-modified (1555136564649)
+}

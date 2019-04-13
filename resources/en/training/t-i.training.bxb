@@ -1,0 +1,5 @@
+train (t-i7bri4t30j7gphggjj7jnlfyr) {
+  utterance ("[g:FindGame] look for a game called (aliens)[v:Name]")
+  plan (Y2BlkCrISaxML8ovzUvRS0/MTXXLzEtJLdJzBzIZ5LDLgSiwPA69fnj0BqXmpCYWp6YwKGCXD84vKnHLzClJLWJgYWBkYGJgBtIMQBYEwgATWI4BAA==)
+  last-modified (1555144449691)
+}
