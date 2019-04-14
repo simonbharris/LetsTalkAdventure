@@ -1,0 +1,44 @@
+action (MakeFilter) {
+  description (Makes a filter)
+  type (Constructor)
+  collect {
+    input (name) {
+      type (Name)
+      min (Optional) max (One)
+    }
+    input (platforms) {
+      type (PlatformNames)
+      min (Optional) max (Many)
+    }
+    input (genres) {
+      type (GenreNames)
+      min (Optional) max (Many)
+    }
+    input (themes) {
+      type(ThemeNames)
+      min (Optional) max (Many)
+    }
+    input (releasedSince) {
+      type(Duration)
+      min (Optional) max (One)
+    }
+    input (sortFilter)
+    {
+      type(SortFilter)
+      default-select  {
+        with-learning {
+          option (NoSharing)
+        }
+      }
+      min (Required) max (One)
+      default-init {
+        intent {
+          goal: SortFilter
+          value: SortFilter (popularity)
+        }
+      }
+    }
+  }
+  output (Filter)
+}
+

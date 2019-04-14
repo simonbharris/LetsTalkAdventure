@@ -1,0 +1,28 @@
+structure (Filter) {
+  description (Contains filter information)
+
+  property (releasedSince) {
+    type(Duration) 
+    min (Optional) max (One)
+  }
+  property (name) {
+    type(Name)
+    min(Optional) max (One)
+  }
+  property (themes) {
+    type (ThemeNames)
+    min (Optional) max (Many)
+  }
+  property (platforms) {
+    type (PlatformNames)
+    min (Optional) max (Many)
+  }
+  property (genres) {
+    type (GenreNames)
+    min (Optional) max (Many)
+  }
+  property (sortFilter) {
+    type (SortFilter) 
+    min (Optional) max (One)
+  }
+}

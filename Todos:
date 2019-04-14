@@ -1,18 +1,20 @@
 Ideas and possible features:
 
 Bugs:
+  Keeping saying something like "Find games like this" will cause weird behavior.
+    Would be cool if this driver only worked if there were games to pick from; or only accessible on certain screens.
 
 Recommend adding (Suspected difficulty)
+  Add visual option to "find games like" ("Find games like this" is implemented)
   Rework / redesign result/details screen to make it more visually attractive. (Hard)
   Active filters visible to the user (Easy-medium)
   Implement redirect links to external websites (Medium?)
-  Check for similar games (IGDB has an field for this on their Game JSON api) (Medium)
   Display Age Rating (easy)
   Release  Status / date? (Easy-medium)
   "Show me more" (easy-medium?)
 
 Maybe adding
-  Store offset (for search) in a concept; have a conversation drivers to incrment or decrement offset
+  "Pagination", Store offset (for search) in a concept; have a conversation drivers to incrment or decrement offset
   Adding icons to the details screen to add some ZING!
   Multiple filters on same category, :IE Search for games on both PS4 and Xbox One
   Ask for list of categories / genres / themes

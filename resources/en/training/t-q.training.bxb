@@ -1,5 +1,5 @@
-train (t-xa6cixedvyi24js8u6tq3ulvi) {
-  utterance ("[g:FindGame:continue] look for (xbox)[v:PlatformNames:Xbox] games")
+train (t-qhmbmtnd433x8s51mxyft5m85) {
+  utterance ("[g:FindGame] (mobile)[v:PlatformNames:Mobile] games")
   plan (jYxdCoNADITHn/YoUkqxt2iflEIPsASMUlxdiNHzN8q+r4EwH8PH4IrKsy5OyY8u9I66jWddheuBJn795o6lfhvinvb2ONzbGdcrCx5ps6GRo/1M2x9P2geZWquWM/PfIBrnL8iQo0BphMiFJY7fLzcqgT8=)
-  last-modified (1555218154041)
+  last-modified (1555218118599)
 }

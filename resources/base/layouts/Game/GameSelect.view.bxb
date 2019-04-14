@@ -1,0 +1,26 @@
+input-view {
+  match {
+    Game(Games)
+  }
+  render {
+    selection-of (Games) {
+      where-each (one) {
+        cell-card {
+          slot1 {
+            image {
+              url ("https://images.igdb.com/igdb/image/upload/t_cover_big/[#{value(one.cover.image_id)}].jpg")
+              shape (Square)
+            }
+          }
+          slot2{
+            content {
+              order (PrimarySecondary)
+              primary ("#{value(one.name)}")
+              secondary ("#{value(one.genres.name)}")
+            }
+          }
+        }
+      }
+    }
+  }
+}

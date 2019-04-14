@@ -1,0 +1,10 @@
+hints {
+  hint-set (uncategorized) {
+    utterance ([g:FindGame] Find some games)
+    utterance ([g:FindGame] Find games by popularity)
+  }
+  hint-set (Some other hints) {
+    utterance ([g:KitchenMishap:continue:*] burn it)
+    utterance ([g:KitchenMishap:continue] do it again)
+  }
+}

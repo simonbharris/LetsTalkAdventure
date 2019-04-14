@@ -1,10 +1,15 @@
 train (t-z0cxxi4vg8gprcea3k6vmsub5) {
-  utterance ("[g:FindGame] games released {[g:Duration] (in the last year)[v:time.DateTimeExpression]}")
-  plan (fYxRCsIwDIb/uukhFMQT9BRzvqsXCDSMQteOtBt6e7P6Og2EfMkXfhxwnAK9B0lzdHagkXsfHYu9KeK87dbxz3ezUPEp/vJ3DkyZHS7b/pGk9D4UFpwWv9jiR7YdFX4qXF+TcM5r/B4GOzRolaBs6m7wrVa7qZf69wE=)
-  last-modified (1555144591846)
+  utterance ("[g:MakeFilter:continue:FindGame] games released in the {[g:Duration] (last year)[v:time.DateTimeExpression]}")
+  plan (jYxBCsIwEEWnVk/hBUQkp6jduar7MNCvhKaJTKbB45uU7uts5n14PDrRxUOTVfaTjS/LY0bQRWDePKN3YYSY3nmF0G3ffPCEzb7u290irC6Gf8pDFN3K5+yyUTfDdKx4Frh/P4KUaupIDR2oLZ8KVW6oXt3tulfjBw==)
+  last-modified (1555216499227)
+}
+train (t-z7jou3ycnyrwazp09v9ml2kiz) {
+  utterance ("[g:MakeFilter:continue:FindGame] find an (open world)[v:ThemeNames:'Open world'] game.")
+  plan (Y2Bh0MhJLSmOL0nMyY7PT4tPTClLzSspLUrVS0/MTXXLzEtJLdJzy8wpSS1i0CGs0jcxO5V41cH5RSXEqw7JSM1N9QPyixmYGRgZmIAkA5AGQQhgArKAYgA=)
+  last-modified (1555217048320)
 }
 train (t-zc35cy0tqjaxltbhsn0lei8o8) {
-  utterance ("[g:FindGame] games released {[g:Duration] (in 2018)[v:time.DateTimeExpression]}")
-  plan (fYxRCsIwDIb/uukhFMQT9BRzvqsXCDSMQteOtBt6e7P6Og2EfMkXfhxwnAK9B0lzdHagkXsfHYu9KeK87dbxz3ezUPEp/vJ3DkyZHS7b/pGk9D4UFpwWv9jiR7YdFX4qXF+TcM5r/B4GOzRolaBs6m7wrVa7qZf69wE=)
-  last-modified (1555143131442)
+  utterance ("[g:MakeFilter:continue:FindGame] games released in {[g:Duration] (2018)[v:time.Year]}")
+  plan (jY/BTgIxEIZ/ZFHRcPTkFRJjdHkGI5J48CJcOG2qO5Bmuy1pp41ceHZa3WwkIWF7aCdfv/mnxS0eFLErWKiqMOtClIE0e0v5RtQ0l7okm8+lYrJ4Om9+iIoa+/G8PfNWsDS6S/LCWG6S74MMOcua8plgWsbi7WdrybkUNW4vX412bP03n7Ceu1h7iuVytyXcHU181/EVQShMWvxJzqhAL/WX3Hjj3ZE27aTtdfxsmQhGbcOKhMUNerhAHxkGuMQVrjGMDJEm/p/2kFbWnH87YmfyflMO)
+  last-modified (1555216508739)
 }

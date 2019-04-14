@@ -1,0 +1,10 @@
+endpoints {
+  action-endpoints {
+    action-endpoint (FindGameLike) {
+      accepted-inputs (game)
+      local-endpoint ("find/FindGamesLike.js")
+    }
+  }
+
+}
+

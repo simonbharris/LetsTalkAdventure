@@ -1,0 +1,11 @@
+action (FindGameLike) {
+  description (Finding games like specified game.)
+  type(Search)
+  collect {
+    input (game) {
+      type (Game)
+      min (Required) max (One)
+    }
+  }
+  output (Game)
+}

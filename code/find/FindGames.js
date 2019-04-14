@@ -1,5 +1,6 @@
 var http = require('http')
 var config = require('config')
+var secret = require('secret')
 var textLib = require('textLib')
 var console = require('console')
 var dates = require('dates');
@@ -9,35 +10,46 @@ const genresLib = require("./lib/genresLib.js")
 const releaseStates = require("./lib/ReleaseState.js")
 
 // If we ever take this further, it would be better to just store the ID of platforms, genres, themes, etc. And pair these to names internally. They have a "10k/50k per month limit on their API, the fields search below is a cost of "6", once for the query, and once for each field expansion, IE: genre.name
-const gameFields = "fields name, platforms.name, genres.name, themes.name, cover.image_id, summary, total_rating, total_rating_count, url;"
+const gameFields = "fields "
+  + " name,"
+  + " platforms.name,"
+  + " genres.name,"
+  + " themes.name,"
+  + " cover.image_id,"
+  + " summary, total_rating,"
+  + " total_rating_count,"
+  + " similar_games, "
+  + " url;"
 
-module.exports.function = function findGames (name, platforms, themes, genres, sortFilter, released, releasedSince) {
-  var options = {}
+module.exports.function = function findGames (filter) {
   var body = gameFields;
-  options.headers = {
-    "user-key": config.get('api.key')
-  }
   var url = config.get('api.url') + "games/";
 
   // If name is supplied
   // For some reason, name can be undefined or empty; so if its either we need to set things to false.
   // Maybe there's a more visual-friendly way of doing this?
-  
-  if (name && name != "") {
-    body += "search \"" + name + "\"; ";
+  if (filter) {
+  console.log(1)
+  if (filter.name && filter.name != "") {
+    body += "search \"" + filter.name + "\"; ";
   }
+  console.log(2)
   
   // Applies most of the "where" clauses and some conditions depending on which sort filters are set.
-  body += applyFilters(name, platforms, themes, genres, sortFilter, released, releasedSince);
+  body += applyFilters(filter);
+  console.log(3)
 
-  if(!name || name == "")
-    body += sortBy(sortFilter)
+  if(!filter.name || filter.name == "")
+    body += sortBy(filter.sortFilter)
   body += default_limit();
+  }
+  console.log(4)
   
   console.log(body);
-  var json = http.postUrl(config.get('api.url') + "games/", body, options)
+  var json = http.postUrl(config.get('api.url') + "games/", body, {"headers" :{"user-key": secret.get('api.key')}})
   var result = convertToGames(JSON.parse(json));
   console.log(json);
+  console.log(5)
   return result
 }
 
@@ -88,36 +100,36 @@ function sortBy (sortFilter) {
   return sort;
 }
 
-function applyFilters(name, platforms, themes, genres, sortFilter, released, releasedSince) {
+function applyFilters(filter) {
   var body = " where ";
   // Sort of string building a where clause for filtering.
 
-  if (themes != "" || platforms != "" || genres != "") {
-    console.log("T: " + themes + ", G: " + genres + ", P: " + platforms)
-    if (themes != "") {
+  if (filter.themes != "" || filter.platforms != "" || filter.genres != "") {
+    console.log("T: " + filter.themes + ", G: " + filter.genres + ", P: " + filter.platforms)
+    if (filter.themes != "") {
       console.log("Adding Themes");
-      body += "themes = (" + getEnumID(themes, themesLib)+ ") ";
+      body += "themes = (" + getEnumID(filter.themes, themesLib)+ ") ";
       body += " & ";
     } 
 
-    if (genres != "") {
+    if (filter.genres != "") {
       console.log("Adding Genres");
-      body += "genres = (" + getEnumID(genres, genresLib)+ ") ";
+      body += "genres = (" + getEnumID(filter.genres, genresLib)+ ") ";
       body += " & ";
     }
 
-    if (platforms != "") {
+    if (filter.platforms != "") {
       console.log("Adding Platforms");
-      body += "platforms = (" + getEnumID(platforms, platformsLib)+ ") ";
+      body += "platforms = (" + getEnumID(filter.platforms, platformsLib)+ ") ";
       body += " & ";
     }
   }
   
   // body += "status = " + getEnumIstaD(releaseState, releaseStates) + " & ";
-  if (sortFilter == "total_rating")
+  if (filter.sortFilter == "total_rating")
     body += "total_rating_count > 10 & ";
   
-  body += setDateRange(releasedSince, sortFilter);
+  body += setDateRange(filter.releasedSince, filter.sortFilter);
   body += "themes != (42); " // Hardcoded a ban on erotic themes (At least for demo purposes); otherwise these pop up in high popularity filters <.<;
   return body;
 }
@@ -157,6 +169,6 @@ function setDateRange(releasedSince, sortFilter) {
 }
 
 function default_limit() {
-  return "limit 20;"
+  return "limit " + config.get('maxReturnCount') + ";"
 }
 

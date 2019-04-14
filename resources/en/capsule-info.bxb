@@ -1,0 +1,12 @@
+description {
+  displayName (Lets Talk Adventure)
+  description (Bixby voice app that lets you search a database of video games for any platform.)
+  iconUrl (https://cdn.discordapp.com/attachments/373613641867591681/566744140805832704/lotaIcon.png)
+  search-keywords{
+    keyword (databaxe)
+    keyword (search)
+    keyword (finder)
+    keyword (games)
+    keyword (igdb)
+  }
+}

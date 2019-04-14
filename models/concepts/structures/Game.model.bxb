@@ -28,9 +28,9 @@ structure (Game) {
     type(Platforms)
     min (Optional) max (Many)
   }
-  property (keyword) {
-    type(Keywords)
-    min(Optional) max(Many)
+  property (similar_games) {
+    type (SimilarGames)
+    min (Optional) max (Many)
   }
   property(themes) {
     type(Themes)
