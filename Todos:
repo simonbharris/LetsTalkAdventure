@@ -1,27 +1,26 @@
 Ideas and possible features:
 
+WE HAVE A PARTNER-TIER API KEY WITH IGDB!!! \o/
+  --- Means we can utilize and implement features we couldn't before :>
 Bugs:
   Keeping saying something like "Find games like this" will cause weird behavior.
     Would be cool if this driver only worked if there were games to pick from; or only accessible on certain screens.
   A game may not have a "similar_games" field, this is something we cannot control;
     If a user attempts to find a gamesLike on a game without similar games, we will run into errors for empty fields.
+  Can't seem to figure out how to use my own input-views in the filters. Picking release range, for example, cannot select games in the history.
+    But after spending 2 days on making filters interactable... i'm taking it. x3
 
 Recommend adding (Suspected difficulty)
-  Add visual option to "find games like" ("Find games like this" is implemented)
   Rework / redesign result/details screen to make it more visually attractive. (Hard)
-  Active filters visible to the user (Easy-medium)
   Implement redirect links to external websites (Medium?)
   Display Age Rating (easy)
   Release  Status / date? (Easy-medium)
-  "Show me more" (easy-medium?)
+  Pagination "Show me more" (easy-medium?) 
 
 Maybe adding
   "Pagination", Store offset (for search) in a concept; have a conversation drivers to incrment or decrement offset
   Adding icons to the details screen to add some ZING!
-  Multiple filters on same category, :IE Search for games on both PS4 and Xbox One
-  Ask for list of categories / genres / themes
-      Bring up tiles / options for the user to see and scroll through
-  Blacklist (IE: exclude "Erotic" theme)
+  Blacklist (IE: exclude "Erotic" theme) -- Erotic is currently hardcoded excluded from queries (it comes up too much in popularity results).
   Redirect too external websites to buy the item
 
 Probably won't add:
@@ -30,3 +29,10 @@ Probably won't add:
     Take the game ID and ping their feed API for news / media stuff
     If platform == android, offer option to redirect to playstore?
     If Mobile game, check if user already own the game / offer to play if they do.
+    
+IMPLEMENTED:
+  Add visual option to "find games like" ("Find games like this" is implemented)
+  Multiple filters on same category, :IE Search for games on both PS4 and Xbox One
+  Active filters visible / interactable to the user (HAAARD T-T)
+  Ask for list of categories / genres / themes
+  Bring up tiles / options for the user to see and scroll through
