@@ -8,6 +8,12 @@ layout-macro-def (game-details) {
   content {
     section {
       content {
+        single-line {
+          text {
+            value (Data provided by IGDB)
+            style (Detail_M_Soft)
+          }
+        }
         image-card {
           aspect-ratio(3:4)
           image-url("https://images.igdb.com/igdb/image/upload/t_cover_big/[#{value(game.cover.image_id)}].jpg")

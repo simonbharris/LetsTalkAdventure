@@ -1,0 +1,15 @@
+action (ApplySearchField) {
+  description (Add New search field)
+  collect {
+    input(filter) {
+      type(Filter)
+      min (Required)
+    }
+    input (newSearchField) {
+      type (SearchField)
+      min (Optional)
+      prompt-behavior (AlwaysElicitation)
+    }
+  }
+  output (Filter)
+}

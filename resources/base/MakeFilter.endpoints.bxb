@@ -1,8 +1,12 @@
 endpoints {
   action-endpoints {
     action-endpoint (MakeFilter) {
-      accepted-inputs (name, platforms, genres, themes, releasedSince, sortFilter)
-      local-endpoint ("find/MakeFilter.js")
+      accepted-inputs (filter, name, platforms, genres, themes, releasedSince, sortFilter)
+      local-endpoint ("filters/MakeFilter.js")
+    }
+    action-endpoint (ApplySearchField) {
+      accepted-inputs (filter, newSearchField)
+      local-endpoint (filters/UpdateFilter.js)
     }
   }
 }

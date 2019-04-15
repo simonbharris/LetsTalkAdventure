@@ -155,4 +155,9 @@ enum (PlatformNames) {
   symbol(TurboGrafx-16/PC Engine)
   symbol(Imlac PDS-1)
   symbol(Oculus VR)
+  features {
+    profile-stored {
+      max (Many)
+    }
+  }
 }

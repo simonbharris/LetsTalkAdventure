@@ -73,9 +73,10 @@ function getEnumID(userInput, group)
 {
   var result = [];
   group.forEach(function (g) {
-    if (g[1].name == userInput.toString()) {
+    userInput.forEach( function (u) {
+          if (g[1].name == u.toString()) {
       result.push(g[0]);
-    }
+    }})
   });
   return result;
 }
@@ -108,19 +109,19 @@ function applyFilters(filter) {
     console.log("T: " + filter.themes + ", G: " + filter.genres + ", P: " + filter.platforms)
     if (filter.themes != "") {
       console.log("Adding Themes");
-      body += "themes = (" + getEnumID(filter.themes, themesLib)+ ") ";
+      body += "themes = (" + getEnumID(filter.themes, themesLib).join(",") + ") ";
       body += " & ";
     } 
 
     if (filter.genres != "") {
       console.log("Adding Genres");
-      body += "genres = (" + getEnumID(filter.genres, genresLib)+ ") ";
+      body += "genres = (" + getEnumID(filter.genres, genresLib).join(",") + ") ";
       body += " & ";
     }
 
     if (filter.platforms != "") {
       console.log("Adding Platforms");
-      body += "platforms = (" + getEnumID(filter.platforms, platformsLib)+ ") ";
+      body += "platforms = (" + getEnumID(filter.platforms, platformsLib).join(",") + ") ";
       body += " & ";
     }
   }

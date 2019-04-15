@@ -6,7 +6,7 @@ structure (Filter) {
     min (Optional) max (One)
   }
   property (name) {
-    type(Name)
+    type(SearchField)
     min(Optional) max (One)
   }
   property (themes) {
@@ -24,5 +24,15 @@ structure (Filter) {
   property (sortFilter) {
     type (SortFilter) 
     min (Optional) max (One)
+  }
+
+  named-consumer (applyFilter) {
+    action (FindGame)
+    input (filter)
+  }
+  named-consumer (applySearchField) 
+  {
+    action (ApplySearchField)
+    input(filter)
   }
 }

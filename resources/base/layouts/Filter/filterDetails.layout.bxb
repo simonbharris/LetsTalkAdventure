@@ -1,0 +1,91 @@
+layout-macro-def(filter-details) {
+  params {
+    param (filter) {
+      type (Filter)
+      min (Required)
+      max (One)
+    }
+  }
+
+  content {
+    section {
+      title (Filters)
+      content {
+        input-cell {
+          label (Search Name)
+          value ("#{value(filter.name)}")
+          on-click {
+            intent {
+              goal { @context (Continuation) Filter }
+              route: ApplySearchField
+            }
+          }
+        }
+        
+        split-input-cell{
+          right {
+            input-cell {
+              label (Theme)
+              value ("#{value(filter.themes)}")
+              on-click {
+                intent {
+                  goal: FindGame
+                }
+              }
+            }
+          }
+          left{
+            input-cell {
+              label (Genres)
+              value ("#{value(filter.genres)}")
+              on-click {
+                intent {
+                  goal: FindGame
+                }
+              }
+            }
+          }
+        }
+        split-input-cell{
+          right {
+            input-cell {
+              label (Platforms)
+              value ("#{value(filter.platforms)}")
+              on-click {
+                intent {
+                  goal: FindGame
+                }
+              }
+            }
+          }
+          left{
+            input-cell {
+              label (Sort By)
+              value ("#{value(filter.sortFilter)}")
+              on-click {
+                intent {
+                  goal: FindGame
+                }
+              }
+            }
+          }
+        }
+        input-cell {
+          label (Release(d) since/by)
+          value ("#{value(filter.releasedSince)}")
+          on-click {
+            intent {
+              goal: FindGame
+            }
+          }
+        }
+        single-line {
+          text {
+            value (Database powered by IGDB)
+            style (Detail_M_Soft)
+          }
+        }
+      }
+    }
+  }
+}

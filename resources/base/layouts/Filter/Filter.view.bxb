@@ -1,0 +1,22 @@
+result-view {
+  match {
+    Filter(this)
+  }
+  message {
+    template (Active Filters){
+      speech (Would you like to change any filters?)
+    }
+  }
+  render {
+    layout-macro (filter-details) {
+      param (filter) {
+        expression (this)
+      }
+    }
+  }
+  conversation-drivers {
+    conversation-driver {
+      template-macro (ApplyFilter)
+    }
+  }
+}

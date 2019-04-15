@@ -1,0 +1,21 @@
+input-view {
+  match {
+    SearchField(searchField)
+  }
+  render {
+    form {
+      on-submit {
+        goal: SearchField
+        value: viv.core.FormElement(text)
+      }
+      elements {
+        text-input {
+          id (text)
+          type (SearchField)
+          label (Search for: )
+          value("#{raw(searchField)}")
+        }
+      }
+    }
+  }
+}

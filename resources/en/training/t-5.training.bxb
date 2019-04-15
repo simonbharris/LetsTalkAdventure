@@ -3,3 +3,8 @@ train (t-5aswtg3iu18sy67d3d521m568) {
   plan (Y2BmkCrISaxML8ovzUvRS0/MTXXLzEtJLdJzBzIZ5LDLgSiwPA69fiA5JgZGIGYAkowMIADlAwA=)
   last-modified (1555019219908)
 }
+train (t-5lp7i2upq8b2eqtksvlh575nk) {
+  utterance ([g:FindGame,r:Filter] Apply filter)
+  plan (Y2BmUMtJLSmOL0nMyY7PT4tPTClLzSspLUrVS0/MTXXLzEtJLdJzBzIZtAirA1FgtRrEqM0pSS1iYGJgBGIGIMnIAAJQPgA=)
+  last-modified (1555307612389)
+}

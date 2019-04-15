@@ -2,6 +2,10 @@ action (MakeFilter) {
   description (Makes a filter)
   type (Constructor)
   collect {
+    input (filter) {
+      type(Filter)
+      min (Optional) max (One)
+    }
     input (name) {
       type (Name)
       min (Optional) max (One)

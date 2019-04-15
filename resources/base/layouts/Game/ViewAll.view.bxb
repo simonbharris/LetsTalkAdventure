@@ -23,4 +23,9 @@ result-view {
       }
     }
   }
+  conversation-drivers {
+    conversation-driver {
+      template-macro (ShowFilters)
+    }
+  }
 }

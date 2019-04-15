@@ -3,3 +3,8 @@ train (t-yuo18bw121sq1qypi1ozfym3u) {
   plan (Y2BmUMtJLSmOL0nMyY7PT4tPTClLzSspLUrVS0/MTXXLzEtJLdJzBzIZ9AirA1EgtT6Z2alEm8vEwAjEDECSkYEBRgMA)
   last-modified (1555208610177)
 }
+train (t-ywxnfkvucfx0tpke5hi1gh9n0) {
+  utterance ([g:Filter] Show filters)
+  plan (Y2Bk0MhJLSmOL0nMyY7PT4tPTClLzSspLUrVS0/MTXXLzEtJLdJzy8wpSS1iAAFGEAEA)
+  last-modified (1555311629441)
+}

@@ -1,0 +1,11 @@
+template-macro-def (ApplyFilter) {
+  content {
+    template ("Apply Filter")
+  }
+}
+
+template-macro-def (ShowFilters) {
+  content {
+    template ("Show Filters")
+  }
+}
