@@ -15,6 +15,7 @@ layout-macro-def (game-details) {
           }
         }
         image-card {
+          image-object-fit (Contain)
           aspect-ratio(3:4)
           image-url("https://images.igdb.com/igdb/image/upload/t_cover_big/[#{value(game.cover.image_id)}].jpg")
           title-area {

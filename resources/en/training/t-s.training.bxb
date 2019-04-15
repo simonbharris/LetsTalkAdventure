@@ -1,10 +1,10 @@
 train (t-sk7ijrij6wlbrp1575ipmhfqu) {
   utterance ("[g:FindGame] games released in the year {[g:Duration] (2017)[v:time.Year]}")
-  plan (jY+9TgMxEITnyPFPSipaQAjB8QyIEJSCBtJQnRxuiaz47MheW9Dk2bHD6USkSLEL72rm2/EaQ1wrYlezUIvafNWiCaTZW6rmoqWx1A3Z6iW2uN3NpbJmb3JYxWRxt5t8FQvq6IwdRt4KlkbnJL8by13yRZChYtlSNRJM09g8fy8tOZeiLnvzyWjH1n/yFuo+h1pRbKc/S8L5xosTHbcIQuGql9/IGRXosZ3JuTfebWAPWdhKx882ScGwH/ggYXGGAnsYoMQ+DnCIIxzjBKdRR+ck779TrJ10yq7+3YhkEbWUWP4C)
-  last-modified (1555218129986)
+  plan (jY+7CsIwGIVPtd5x9BEUEan4CIIoDi46OZVIfyU0TSD9m9FnN/VScDJDLnz5cnKCEWaKuExZqDw1t1RkjjRXlpK7KGgndUY22fstFv+9enm58xBXMVks/5tHkdPHDuiwraxgaTTWAf8i3gqmg/bZTqiQMmdj+VNm4qRLWBaU/IRMG3yi0ihHm+Iq75Wpyh9tFaQ9tH86qwnGzYULCYshIrTQRowOuuihj4FnaGjb8zeNXvQ9vjP8eeStOiV+Ag==)
+  last-modified (1555327997256)
 }
 train (t-sv0yosudxo9ss0uhpkssp4aw7) {
   utterance ("[g:FindGame] games releasing {[g:Duration] (next week)[v:time.DateTimeExpression]}")
-  plan (fYxRCsIwDIb/uukhFMQT9BRzvqsXCDSMQteOtBt6e7P6Og2EfMkXfhxwnAK9B0lzdHagkXsfHYu9KeK87dbxz3ezUPEp/vJ3DkyZHS7b/pGk9D4UFpwWv9jiR7YdFX4qXF+TcM5r/B4GOzRolaBs6m7wrVa7qZf69wE=)
-  last-modified (1555142932293)
+  plan (jY7BCsIwDIYzV/UhvIuI9CmmnjzpvQQWpaxrpc2Kj29bel8DId8PHz+BPRwNcVCMZlLurXCMZHnxJD84003bkby8J4TzupdPcU8trmHycFk3HzhRtRt+GBaPrJ1taX46z7X5EHWUrGeSAzK9Elx/X08h5KoddLCBHgRsE0NNOXcl5RFp+8Si2OIP)
+  last-modified (1555327997373)
 }

@@ -14,7 +14,23 @@ layout-macro-def (game-summary){
         slot1 {
           text {
             value ("#{value(game.name)}")
-            style (Title_L)
+            style (Title_M)
+          }
+        }
+        slot2 {
+          single-line {
+            text {
+              value ("#{number(game.total_rating, '#,##0.0')}%")
+              style(Detail_L)
+            }
+          }
+        }
+        slot3 {
+          single-line {
+            text  {
+              value ("#{value(game.genres.name)}")
+              style(Detail_M)
+            }
           }
         }
       }
