@@ -1,0 +1,11 @@
+action (GetDateInterval) {
+  description (Gets a date interval)
+  type(Search)
+  collect {
+    input (dateInterval) {
+      type (viv.time.DateInterval)
+      min (Optional) max (One)
+    }
+  }
+  output (Duration)
+}

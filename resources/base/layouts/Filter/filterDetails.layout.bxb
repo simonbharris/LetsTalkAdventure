@@ -29,7 +29,11 @@ layout-macro-def(filter-details) {
               value ("#{value(filter.themes)}")
               on-click {
                 intent {
-                  goal: FindGame
+                  goal {@context (Continuation) Filter}
+                  subplan {
+                    goal {@prompt-behavior(AlwaysElicitation) ThemeNames}
+                    route: GetThemeNames
+                  }
                 }
               }
             }
@@ -40,7 +44,11 @@ layout-macro-def(filter-details) {
               value ("#{value(filter.genres)}")
               on-click {
                 intent {
-                  goal: FindGame
+                  goal {@context (Continuation) Filter}
+                  subplan {
+                    goal {@prompt-behavior(AlwaysElicitation) GenreNames}
+                    route: GetGenreNames
+                  }
                 }
               }
             }
@@ -53,7 +61,11 @@ layout-macro-def(filter-details) {
               value ("#{value(filter.platforms)}")
               on-click {
                 intent {
-                  goal: FindGame
+                  goal {@context (Continuation) Filter}
+                  subplan {
+                    goal {@prompt-behavior(AlwaysElicitation) PlatformNames}
+                    route: GetPlatformNames
+                  }
                 }
               }
             }
@@ -71,11 +83,15 @@ layout-macro-def(filter-details) {
           }
         }
         input-cell {
-          label (Release(d) since/by)
+          label (Release(d) in range)
           value ("#{value(filter.releasedSince)}")
           on-click {
             intent {
-              goal: FindGame
+              goal {@context (Continuation) Filter}
+              subplan {
+                goal {@prompt-behavior(AlwaysElicitation) viv.time.DateInterval}
+                route: GetDateInterval
+              }
             }
           }
         }

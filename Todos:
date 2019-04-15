@@ -3,6 +3,8 @@ Ideas and possible features:
 Bugs:
   Keeping saying something like "Find games like this" will cause weird behavior.
     Would be cool if this driver only worked if there were games to pick from; or only accessible on certain screens.
+  A game may not have a "similar_games" field, this is something we cannot control;
+    If a user attempts to find a gamesLike on a game without similar games, we will run into errors for empty fields.
 
 Recommend adding (Suspected difficulty)
   Add visual option to "find games like" ("Find games like this" is implemented)

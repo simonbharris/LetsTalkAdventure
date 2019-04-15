@@ -1,0 +1,5 @@
+action (GetThemeNames) {
+  description (Obtain Theme Names)
+  output (ThemeNames)
+  type (Search)
+}

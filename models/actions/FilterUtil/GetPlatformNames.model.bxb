@@ -1,0 +1,5 @@
+action (GetPlatformNames) {
+  description (Obtain Platform names)
+  output (PlatformNames)
+  type (Search)
+}

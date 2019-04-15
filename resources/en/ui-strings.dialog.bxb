@@ -9,3 +9,9 @@ template-macro-def (ShowFilters) {
     template ("Show Filters")
   }
 }
+
+template-macro-def (GamesLikeThis) {
+  content{
+    template ("Games like this")
+  }
+}

@@ -6,7 +6,23 @@ endpoints {
     }
     action-endpoint (ApplySearchField) {
       accepted-inputs (filter, newSearchField)
-      local-endpoint (filters/UpdateFilter.js)
+      local-endpoint (filters/UpdateSearchField.js)
+    }
+    action-endpoint (GetGenreNames) {
+      accepted-inputs ()
+      local-endpoint (filters/GetGenreNames.js)
+    }
+    action-endpoint (GetThemeNames) {
+      accepted-inputs ()
+      local-endpoint (filters/GetThemeNames.js)
+    }
+    action-endpoint (GetPlatformNames) {
+      accepted-inputs ()
+      local-endpoint (filters/GetPlatformNames.js)
+    }
+    action-endpoint (GetDateInterval) {
+      accepted-inputs (dateInterval)
+      local-endpoint (filters/GetDateInterval.js)
     }
   }
 }

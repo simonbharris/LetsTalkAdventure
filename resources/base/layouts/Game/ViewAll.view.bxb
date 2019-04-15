@@ -27,5 +27,8 @@ result-view {
     conversation-driver {
       template-macro (ShowFilters)
     }
+    conversation-driver {
+      template-macro (GamesLikeThis)
+    }
   }
 }

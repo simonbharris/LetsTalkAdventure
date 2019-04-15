@@ -1,0 +1,5 @@
+action (GetGenreNames) {
+  description (Obtain GenreNames)
+  output (GenreNames)
+  type (Search)
+}
