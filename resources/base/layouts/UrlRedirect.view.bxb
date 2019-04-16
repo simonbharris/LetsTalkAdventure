@@ -1,0 +1,8 @@
+result-view {
+  match {
+    UriRedirect(uriRedirect)
+  }
+  app-launch {
+    payload-uri("#{value(uriRedirect.url)}")
+  }
+}

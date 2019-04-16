@@ -48,4 +48,8 @@ structure (Game) {
     type(URL)
     min(Optional) max (One)
   }
+  property (external_games) { // Requires us to have Partner / Pro tier API access
+    type (UriRedirect)
+    min (Optional) max (Many)
+  }
 }

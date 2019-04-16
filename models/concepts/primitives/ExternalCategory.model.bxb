@@ -1,0 +1,10 @@
+enum (ExternalCategory) {
+  description (__DESCRIPTION__)
+  symbol (1) // Steam
+  symbol (5) // gog
+  symbol (10) // Youtube
+  symbol (11) // Microsoft
+  symbol (13) // Apple
+  symbol (14) // Twitch
+  symbol (15) // Android
+}

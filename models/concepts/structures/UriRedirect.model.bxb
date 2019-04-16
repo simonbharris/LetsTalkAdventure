@@ -1,0 +1,15 @@
+structure (UriRedirect) {
+  description (URI Redirect info)
+  property (id) {
+    type (ID)
+  }
+  property (category) {
+    type (ExternalCategory)
+  }
+  property (uri) {
+    type (URI)
+  }
+  property (url) {
+    type (URL)
+  }
+}

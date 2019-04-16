@@ -103,14 +103,78 @@ layout-macro-def (game-details) {
         divider
         single-line {
           text {
-            value("Websites")
+            value("Links")
             style (Detail_M)
           }
         }
-        single-line {
-          text {
-            value("IGDB #{value(game.url)})")
-            style (Detail_M)
+        if (exists(game.url)) {
+          cell-card {
+            slot1 {
+              image {
+                shape (Square)
+                url (https://img3.androidappsapk.co/115/a/c/1/com.igdb.igdbmainapp.png)
+              }
+            }
+            slot2 {
+              content {
+                primary (IGDB)
+              }
+            }
+            on-click {
+              intent {
+                goal: UriRedirect
+                value: UriRedirect {
+                  url {$expr(game.url)}
+                }
+              }
+            }
+          }
+        } //            BUTTTONNSSSS YEEEAAAHHH!!! (Modularize this later)
+        for-each (game.external_games) { // <--- Not fully implemented. Neet better EL or URI constructor.
+          as (item) {
+            switch (item.category) {
+              case (1) { // Steam
+                layout-macro (UriButton) {
+                  param (url) {
+                    literal (https://store.steampowered.com/) // <-- Update later with something better
+                  }
+                  param (image) { // <-- Should probably change where these are hosted and not abuse discord. xD
+                    literal (https://cdn.discordapp.com/attachments/354331388142419988/567499944391344158/unknown.png)
+                  }
+                  param (name) {
+                    literal ("Steam -- [NYI]")
+                  }
+                }
+              }
+              case (5) { // gog
+                layout-macro (UriButton) {
+                  param (url) {expression (item.url)}
+                  param (image) {literal (https://cdn.discordapp.com/attachments/354331388142419988/567524893340729364/Screen_Shot_2019-04-15_at_6.41.04_PM.png)}
+                  param (name) {literal (gog)}
+                }
+              }
+              case (10) { // Gaming youtube?
+                layout-macro (UriButton) {
+                  param (url) {expression (item.url)}
+                  param (image) {literal (https://www.flaticon.com/premium-icon/icons/svg/720/720300.svg)}
+                  param (name) {literal ("YouTube")}
+                }
+              }
+              case (14) { // Twitch
+                layout-macro (UriButton) { // URL needs updating to something tailored.
+                  param (url) {literal ("https://www.twitch.tv/directory/game/")} 
+                  param (image) {literal (http://icons.iconarchive.com/icons/papirus-team/papirus-apps/256/gnome-twitch-icon.png)}
+                  param (name) {literal ("Twitch -- [NYI]")}
+                }
+              }
+              case (15) { // Android
+                layout-macro (UriButton) {
+                  param (url) {expression (item.url)}
+                  param (image) {literal (https://cdn.discordapp.com/attachments/354331388142419988/567524300610076703/unknown.png)}
+                  param (name) {literal ("Android")}
+                }
+              }
+            }
           }
         }
       }

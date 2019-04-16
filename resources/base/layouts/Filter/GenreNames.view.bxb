@@ -1,0 +1,21 @@
+// input-view { Leave this out for now, whatever Bixby is defaulting to is way better
+//   match {
+//     GenreNames(gnames)
+//   }
+//   message (Select Genre(s))
+// 
+//   render {
+//     selection-of (gnames) {
+//       where-each (gnames) {
+//         single-line {
+//           text {
+//             value {
+//               template ("#{value(gnames)}")
+//             }
+//             style (Detail_M_Soft)
+//           }
+//         }
+//       }
+//     }
+//   }
+// // }visu

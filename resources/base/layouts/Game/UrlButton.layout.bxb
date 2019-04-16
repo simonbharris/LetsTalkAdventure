@@ -1,0 +1,40 @@
+layout-macro-def (UriButton) {
+  params {
+    param (url) {
+      type (URL)
+      min (Required) max (One)
+    }
+    param (image) {
+      type (URL)
+      min (Required) max (One)
+    }
+    param (name) {
+      type (Name)
+      min (Required) max (One)
+    }
+  }
+  
+  content {
+    cell-card {
+      on-click {
+        intent {
+          goal: UriRedirect
+          value: UriRedirect {
+            url {$expr(url)}
+            }
+        }
+      }
+      slot1 {
+        image {
+          shape (Square)
+          url ("#{value(image)}")
+        }
+      }
+      slot2 {
+        content {
+          primary ("#{value(name)}")
+        }
+      }
+    }
+  }
+}
