@@ -9,9 +9,12 @@ const gameFields = "fields "
   + " genres.name,"
   + " themes.name,"
   + " cover.image_id,"
-  + " summary, total_rating,"
+  + " summary,"
+  + " total_rating,"
   + " total_rating_count,"
   + " similar_games, "
+  + " external_games.category, "
+  + " external_games.url, "
   + " url;"
 
 function convertToGames(apiObj)
@@ -31,7 +34,7 @@ module.exports.function = function findGameLike (game) {
   body += "where id = (" + game.similar_games.join(",") + "); limit " + config.get('maxReturnCount') + ";";
 
   console.log(body);
-  var json = http.postUrl(config.get('api.url') + "games/", body, {"headers" :{"user-key": secret.get('api.key')}});
+  var json = http.postUrl(config.get('api.url') + "games/", body, {"headers" :{"user-key": config.get('api.key')}});
   var result = convertToGames(JSON.parse(json));
   console.log(json);
   return result

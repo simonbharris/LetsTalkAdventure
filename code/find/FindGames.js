@@ -16,9 +16,12 @@ const gameFields = "fields "
   + " genres.name,"
   + " themes.name,"
   + " cover.image_id,"
-  + " summary, total_rating,"
+  + " summary,"
+  + " total_rating,"
   + " total_rating_count,"
   + " similar_games, "
+  + " external_games.category, "
+  + " external_games.url, "
   + " url;"
 
 module.exports.function = function findGames (filter) {
@@ -29,27 +32,22 @@ module.exports.function = function findGames (filter) {
   // For some reason, name can be undefined or empty; so if its either we need to set things to false.
   // Maybe there's a more visual-friendly way of doing this?
   if (filter) {
-  console.log(1)
   if (filter.name && filter.name != "") {
     body += "search \"" + filter.name + "\"; ";
   }
-  console.log(2)
   
   // Applies most of the "where" clauses and some conditions depending on which sort filters are set.
   body += applyFilters(filter);
-  console.log(3)
 
   if(!filter.name || filter.name == "")
     body += sortBy(filter.sortFilter)
   body += default_limit();
   }
-  console.log(4)
   
   console.log(body);
-  var json = http.postUrl(config.get('api.url') + "games/", body, {"headers" :{"user-key": secret.get('api.key')}})
+  var json = http.postUrl(config.get('api.url') + "games/", body, {"headers" :{"user-key": config.get('api.key')}})
   var result = convertToGames(JSON.parse(json));
   console.log(json);
-  console.log(5)
   return result
 }
 
