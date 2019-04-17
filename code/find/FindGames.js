@@ -29,8 +29,6 @@ module.exports.function = function findGames (filter, pageNo) {
   var body = gameFields;
   var url = config.get('api.url') + "games/";
 
-  console.log(new dates.ZonedDateTime("UTC+00:00", 1555464984000).format("MMM dd YYYY"))
-  
   // If name is supplied
   // For some reason, name can be undefined or empty; so if its either we need to set things to false.
   // Maybe there's a more visual-friendly way of doing this?
@@ -64,7 +62,8 @@ function convertToGames(apiObj)
 {
   var result = [];
     apiObj.forEach(function(o) {
-      o.release_date = new dates.ZonedDateTime("UTC+00:00", o.first_release_date*1000).format("MMM dd YYYY")
+      if (o.first_release_date)
+         o.release_date = new dates.ZonedDateTime("UTC+00:00", o.first_release_date*1000).format("MMM dd YYYY")
       o.first_release_date=undefined; // removing untracked field
       console.log(o);
     result.push(o)

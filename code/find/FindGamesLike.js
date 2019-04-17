@@ -1,6 +1,7 @@
 var config = require('config')
 var secret = require('secret')
 var console = require('console')
+var dates = require('dates');
 var http = require('http');
 
 const gameFields = "fields "
@@ -22,7 +23,8 @@ function convertToGames(apiObj)
 {
   var result = [];
     apiObj.forEach(function(o) {
-      o.release_date = new dates.ZonedDateTime("UTC+00:00", o.first_release_date*1000).format("MMM dd YYYY")
+      if (o.first_release_date)
+        o.release_date = new dates.ZonedDateTime("UTC+00:00", o.first_release_date*1000).format("MMM dd YYYY")
       o.first_release_date=undefined; // removing untracked field
       console.log(o);
     result.push(o)
