@@ -1,0 +1,6 @@
+dialog (Result) {
+  match {
+    Game
+  }
+  template ("Here are some games to browse")
+}

@@ -20,14 +20,17 @@ const gameFields = "fields "
   + " total_rating,"
   + " total_rating_count,"
   + " similar_games, "
+  + " first_release_date, "
   + " external_games.category, "
   + " external_games.url, "
   + " url;"
 
-module.exports.function = function findGames (filter) {
+module.exports.function = function findGames (filter, pageNo) {
   var body = gameFields;
   var url = config.get('api.url') + "games/";
 
+  console.log(new dates.ZonedDateTime("UTC+00:00", 1555464984000).format("MMM dd YYYY"))
+  
   // If name is supplied
   // For some reason, name can be undefined or empty; so if its either we need to set things to false.
   // Maybe there's a more visual-friendly way of doing this?
@@ -35,7 +38,7 @@ module.exports.function = function findGames (filter) {
   if (filter.name && filter.name != "") {
     body += "search \"" + filter.name + "\"; ";
   }
-  
+  body += "offset " + pageNo * config.get('maxReturnCount') + "; "
   // Applies most of the "where" clauses and some conditions depending on which sort filters are set.
   body += applyFilters(filter);
 
@@ -45,7 +48,7 @@ module.exports.function = function findGames (filter) {
   }
   
   console.log(body);
-  var json = http.postUrl(config.get('api.url') + "games/", body, {"headers" :{"user-key": config.get('api.key')}})
+  var json = http.postUrl(config.get('api.url') + "games/", body, {"headers" :{"user-key": secret.get('api.key')}})
   var result = convertToGames(JSON.parse(json));
   console.log(json);
   return result
@@ -61,6 +64,8 @@ function convertToGames(apiObj)
 {
   var result = [];
     apiObj.forEach(function(o) {
+      o.release_date = new dates.ZonedDateTime("UTC+00:00", o.first_release_date*1000).format("MMM dd YYYY")
+      o.first_release_date=undefined; // removing untracked field
       console.log(o);
     result.push(o)
   });
@@ -90,7 +95,7 @@ function sortBy (sortFilter) {
       sort += "total_rating desc;";
       break;
     case ("release_dates"):
-      sort += "first_release_date asc;";
+      sort += "first_release_date desc;";
       break ;
     default:
       sort += "popularity desc;";

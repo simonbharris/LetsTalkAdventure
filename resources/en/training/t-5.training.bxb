@@ -1,10 +1,15 @@
 train (t-5aswtg3iu18sy67d3d521m568) {
-  utterance ("[g:FindGame] find video game called (league of legends)[v:Name]")
+  utterance ("[g:FindGame:continue:Filter] find video game called (league of legends)[v:Name]")
   plan (Y2BjUMtJLSmOL0nMyY7PT4tPTClLzSspLUrVS0/MTXXLzEtJLdJzBzIZtAirA1FgtRrEqM0pSS1i0CGs0jcxOxWqmgi3+oHsJ8LU4PyiEqiprAyMDEwMzAwsQBYDlM0MpBnAGASYgCwWBgYA)
-  last-modified (1555327994617)
+  last-modified (1555406697488)
+}
+train (t-5f0y8qqn2nro3mki16ktkpt7p) {
+  utterance ("[g:FindGame:continue] games releasing in the {[g:Duration] (next 7 days)[v:time.DateTimeExpression]}")
+  plan (jY7BCsIwDIYzV/UhvIuI9CmmnjzpvQQWpaxrpc2Kj29bel8DId8PHz+BPRwNcVCMZlLurXCMZHnxJD84003bkby8J4TzupdPcU8trmHycFk3HzhRtRt+GBaPrJ1taX46z7X5EHWUrGeSAzK9Elx/X08h5KoddLCBHgRsE0NNOXcl5RFp+8Si2OIP)
+  last-modified (1555400913223)
 }
 train (t-5lp7i2upq8b2eqtksvlh575nk) {
-  utterance ([g:FindGame,r:Filter] Apply filter)
+  utterance ([g:FindGame:continue:Filter,r:Filter] Apply filter)
   plan (Y2BmUMtJLSmOL0nMyY7PT4tPTClLzSspLUrVS0/MTXXLzEtJLdJzBzIZtAirA1FgtRrEqM0pSS1iYGJgBGIGIMnIAAJQPgA=)
-  last-modified (1555307612389)
+  last-modified (1555407085468)
 }

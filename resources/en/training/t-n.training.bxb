@@ -3,3 +3,8 @@ train (t-ncdpdvj2x2rtoqz4d89vh82wb) {
   plan (Y2BmUMtJLSmOL0nMyY7PT4tPTClLzSspLUrVS0/MTXXLzEtJLdJzBzIZtAirA1FgtRrEqM0pSS1iYGJgBGIGIMnIwACjAQ==)
   last-modified (1555327996865)
 }
+train (t-nfkrwwf0xqgzmh655fu87vsxc) {
+  utterance ([g:FindGame] find games)
+  plan (Y2BmUMtJLSmOL0nMyY7PT4tPTClLzSspLUrVS0/MTXXLzEtJLdJzBzIZtAirA1FgtRrEqM0pSS1iYGJgBGIGIMnIwACjAQ==)
+  last-modified (1555384400801)
+}

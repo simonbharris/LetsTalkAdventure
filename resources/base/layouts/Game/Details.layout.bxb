@@ -37,7 +37,7 @@ layout-macro-def (game-details) {
           slot2 {
             single-line {
               text {
-                value ("Rated: #{number(game.total_rating, '#,##0.0')} | By: #{value(game.total_rating_count)} users")
+                value ("Rated: #{number(game.total_rating, '#,##0.0')} • Release: #{value(game.release_date)}")
                 style (Title_XS)
               }
             }
@@ -103,21 +103,22 @@ layout-macro-def (game-details) {
         divider
         single-line {
           text {
-            value("Links")
-            style (Detail_M)
+            value("Dig deeper at")
+            style (Title_S)
           }
         }
-        if (exists(game.url)) {
+        if (exists(game.url)) { // IGDB
           cell-card {
             slot1 {
               image {
-                shape (Square)
-                url (https://img3.androidappsapk.co/115/a/c/1/com.igdb.igdbmainapp.png)
+                shape (Circle)
+                url (https://cdn.discordapp.com/attachments/567608389622956042/567610246638469122/IGDB-icon.png)
               }
             }
             slot2 {
               content {
                 primary (IGDB)
+                secondary (Rate, review, and more info)
               }
             }
             on-click {
@@ -129,7 +130,17 @@ layout-macro-def (game-details) {
               }
             }
           }
-        } //            BUTTTONNSSSS YEEEAAAHHH!!! (Modularize this later)
+        }
+        divider
+        if(size(game.external_games) > 0) {
+          single-line {
+            text {
+              value("Links")
+              style (Detail_M)
+            }
+          }
+        }
+        //            BUTTTONNSSSS YEEEAAAHHH!!! (Modularize this later)
         for-each (game.external_games) { // <--- Not fully implemented. Neet better EL or URI constructor.
           as (item) {
             switch (item.category) {
@@ -142,7 +153,7 @@ layout-macro-def (game-details) {
                     literal (https://cdn.discordapp.com/attachments/354331388142419988/567499944391344158/unknown.png)
                   }
                   param (name) {
-                    literal ("Steam -- [NYI]")
+                    literal ("Steam")
                   }
                 }
               }
@@ -164,7 +175,7 @@ layout-macro-def (game-details) {
                 layout-macro (UriButton) { // URL needs updating to something tailored.
                   param (url) {literal ("https://www.twitch.tv/directory/game/")} 
                   param (image) {literal (http://icons.iconarchive.com/icons/papirus-team/papirus-apps/256/gnome-twitch-icon.png)}
-                  param (name) {literal ("Twitch -- [NYI]")}
+                  param (name) {literal ("Twitch")}
                 }
               }
               case (15) { // Android

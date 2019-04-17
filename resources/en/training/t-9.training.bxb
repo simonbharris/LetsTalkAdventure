@@ -1,10 +1,15 @@
 train (t-9d1zb18abishdkj26ssfl5qb6) {
-  utterance ("[g:FindGameLike:continue:FindGame] find games like (halo)[v:Name]")
-  plan (Y+BgUMtJLSmOL0nMyY7PT4tPTClLzSspLUrVS0/MTXXLzEtJLdJzBzIZ9AirA1EgtT6Z2alEm6tFvLkMGsSozSlJLWLQIazSNzE7FaqaCLf6gewnwtTg/KISqKnsDIwMTAzMDCwMrAxsQB4DEp8VyGaAYxBgArLYGBgA)
-  last-modified (1555217094896)
+  utterance ("[g:FindGame:continue:Filter] find games like (halo)[v:Name]")
+  plan (Y2BjUMtJLSmOL0nMyY7PT4tPTClLzSspLUrVS0/MTXXLzEtJLdJzBzIZtAirA1FgtRrEqM0pSS1i0CGs0jcxOxWqmgi3+oHsJ8LU4PyiEqiprAyMDEwMzAwsQBYDlM0MpBnAGASYgCwWBgYA)
+  last-modified (1555384518214)
 }
 train (t-9qlowqu7ziqggt3d9u98303dn) {
   utterance ([g:FindGameLike:continue:Game] find games like this)
   plan (Y2BmUMtJLSmOL0nMyY7PT4tPTClLzSspLUrVS0/MTXXLzEtJLdJzBzIZ9AirA1EgtT6Z2alEm8vEwAjEDECSkYEBRgMA)
   last-modified (1555208617732)
+}
+train (t-9wwd1qq1n1ozo2ldqdvy13sq7) {
+  utterance ([g:FindGame:continue:FindMore,r:FindMore] Next)
+  plan (lY3LCYAwEEQn/koR8WAZelLsIASyihgTiKv1G9OAcS/zBh6zqFAb4lOyMrt0i1T6JsuXp25VB/Wb1eS7ISDab++N6DYprmHyKeasVppc6v/RefqxWkIgQ44iEAKLyAKI7b0sZAE8)
+  last-modified (1555407096803)
 }

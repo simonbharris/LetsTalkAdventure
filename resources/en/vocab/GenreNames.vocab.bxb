@@ -1,22 +1,22 @@
 vocab (GenreNames) {
-  "Point-and-click" { "Point and click "}
-  "Fighting" { "Fighting" }
-  "Shooter" { "Shooter" "First Person Shooter" "FPS" "F P S" "Third Person Shooter" }
-  "Music" { "Music" "Musical" }
-  "Platform" {"Platform" "Platformer"}
-  "Puzzle" {"Puzzle"}
-  "Racing" {"Racing" "Race"}
-  "Real Time Strategy (RTS)"{ "r t s" "real time strategy" "RTS"}
-  "Role-playing (RPG)" { "R P G" "rpg" "role playing" "role play" "role playing game"}
-  "Simulator"{ "Simulator" "simulation" "sim"}
+  "Point-and-click" { "Point and click" "point and clicks"}
+  "Fighting" { "Fighting" "fighters" "fight" "fights" }
+  "Shooter" { "Shooter" "shooters" "First Person Shooter" "FPS" "F P S" "Third Person Shooter" }
+  "Music" { "Music" "Musical" "melody" "musics" "musicals" "melodies"}
+  "Platform" {"Platform" "Platformer" "platformers" "platforms"}
+  "Puzzle" {"Puzzle" "puzzles"}
+  "Racing" {"Racing" "Race" "racer" "racers" "races"}
+  "Real Time Strategy (RTS)"{ "r t s" "real time strategy" "RTS" "real time strategies"}
+  "Role-playing (RPG)" { "R P G" "rpg" "role playing" "role play" "rpgs" "role plays"}
+  "Simulator"{ "Simulator" "simulators" "simulations" "simulation" "sim" "sims"}
   "Sport"{"Sport" "sports"}
-  "Strategy"{ "Strategy"}
-  "Turn-based strategy (TBS)" { "Turned-based strategy" "T B S" }
-  "Tactical"{"Tactical"}
-  "Hack and slash/Beat 'em up" {"Hack and slash" "Beat them up" "beat 'em up" "Beat M up"}
-  "Quiz/Trivia" {"Quiz" "trivia"}
-  "Pinball"{"Pinball"}
-  "Adventure"{ "Adventure" }
-  "Indie" { "Indie"}
-  "Arcade" {"Arcade"}
+  "Strategy"{ "Strategy" "strategies" }
+  "Turn-based strategy (TBS)" { "Turned-based strategy" "turn based strategies" "T B S" }
+  "Tactical"{"Tactical" "tacticals"}
+  "Hack and slash/Beat 'em up" {"Hack and slash" "hack and slashes" "hack and slashers" "Beat them up" "beat him up" "beat him ups" "beat 'em up" "Beat M up" "beat ups" "hack slash"}
+  "Quiz/Trivia" {"Quiz" "trivia" "quizes" "trivias"}
+  "Pinball"{"Pinball" "pinballs"}
+  "Adventure"{ "Adventure" "adventures" }
+  "Indie" { "Indie" "indies" }
+  "Arcade" {"Arcade" "arcades"}
 }

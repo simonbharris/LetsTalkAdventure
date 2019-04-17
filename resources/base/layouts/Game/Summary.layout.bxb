@@ -20,7 +20,8 @@ layout-macro-def (game-summary){
         slot2 {
           single-line {
             text {
-              value ("#{number(game.total_rating, '#,##0.0')}%")
+              value ("#{number(game.total_rating, '#,##0.0')}% •~• #{value(game.release_date)}")
+              // value ("#{value(game.release_date)}")
               style(Detail_L)
             }
           }

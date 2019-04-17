@@ -2,7 +2,7 @@ layout-macro-def (UriButton) {
   params {
     param (url) {
       type (URL)
-      min (Required) max (One)
+      min (Required)
     }
     param (image) {
       type (URL)

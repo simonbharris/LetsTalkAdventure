@@ -1,10 +1,15 @@
 train (t-l0ocdtobj27judrzb55s2m5ns) {
-  utterance ("[g:FindGame] games released {[g:Duration] (last year)[v:time.DateTimeExpression]}")
-  plan (jY7BCsIwDIYzV/UhvIuI9CmmnjzpvQQWpaxrpc2Kj29bel8DId8PHz+BPRwNcVCMZlLurXCMZHnxJD84003bkby8J4TzupdPcU8trmHycFk3HzhRtRt+GBaPrJ1taX46z7X5EHWUrGeSAzK9Elx/X08h5KoddLCBHgRsE0NNOXcl5RFp+8Si2OIP)
-  last-modified (1555223755489)
+  utterance ("[g:Filter:continue] games released {[g:Duration] (last year)[v:time.DateTimeExpression]}")
+  plan (jYxBCsIwEEWnrZ7CC4hITlG7c1X3YaBfCU0TmUyDxzfB7uvAMG/g8ehIZw9NVtnPNj4tTxlBV4F58YLBhQliBucVQtd9884zNvuyb/ersLoY/imPUXQrn7LLRt0C07PiUeD2eQtSqqkDNdRSVy4VqtxQnfp3Zduf8QU=)
+  last-modified (1555384008392)
 }
 train (t-lcpi4it7q3aedcaptdwfny77h) {
-  utterance ("[g:FindGame] Games released {[g:Duration] (three weeks ago)[v:time.DateTimeExpression]}")
-  plan (jY7BCsIwDIYzV/UhvIuI9CmmnjzpvQQWpaxrpc2Kj29bel8DId8PHz+BPRwNcVCMZlLurXCMZHnxJD84003bkby8J4TzupdPcU8trmHycFk3HzhRtRt+GBaPrJ1taX46z7X5EHWUrGeSAzK9Elx/X08h5KoddLCBHgRsE0NNOXcl5RFp+8Si2OIP)
-  last-modified (1555327996588)
+  utterance ("[g:Filter:continue] Games released {[g:Duration] (three weeks ago)[v:time.DateTimeExpression]}")
+  plan (jYxBCsIwEEWnrZ7CC4hITlG7c1X3YaBfCU0TmUyDxzfB7uvAMG/g8ehIZw9NVtnPNj4tTxlBV4F58YLBhQliBucVQtd9884zNvuyb/ersLoY/imPUXQrn7LLRt0C07PiUeD2eQtSqqkDNdRSVy4VqtxQnfp3Zduf8QU=)
+  last-modified (1555384014843)
+}
+train (t-lnxoziiamgi7hj5jb3ew754jv) {
+  utterance ("[g:FindGame:continue] search for (halo)[v:SearchField]")
+  plan (Y2BjUMtJLSmOL0nMyY7PT4tPTClLzSspLUrVS0/MTXXLzEtJLdJzBzIZtAirA1FgtRrEqM0pSS1iMCKs0rGgIKcyODWxKDnDLTM1J4UE03UJq0Q2mJWBkYGJgZmBBchigLKZgTQDGIMAE5AFlAMA)
+  last-modified (1555387133737)
 }

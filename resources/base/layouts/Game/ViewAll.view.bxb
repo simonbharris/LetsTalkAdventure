@@ -27,8 +27,16 @@ result-view {
     conversation-driver {
       template-macro (ShowFilters)
     }
-    conversation-driver {
-      template-macro (GamesLikeThis)
+    if (size(result) > 1) {
+      conversation-driver {
+        template ("Find More")
+      }
+
+    }
+    else {
+      conversation-driver {
+        template-macro (GamesLikeThis)
+      }
     }
   }
 }

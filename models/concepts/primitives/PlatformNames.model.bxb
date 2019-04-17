@@ -5,11 +5,12 @@ enum (PlatformNames) {
   symbol(PC (Microsoft Windows))
   symbol(Xbox One)
   symbol(PlayStation 4) 
-  symbol(Nintendo Switch) 
+  symbol(Nintendo Switch)
+  symbol(New Nintendo 3DS) 
+  symbol(PlayStation Vita) 
   symbol(PlayStation 3) 
   symbol(PlayStation 2) 
   symbol(PlayStation) 
-  symbol(PlayStation Vita) 
   symbol(PlayStation Portable) 
   symbol(Wii U) 
   symbol(Wii)
@@ -17,7 +18,6 @@ enum (PlatformNames) {
   symbol(Nintendo 64) 
   symbol(Super Nintendo Entertainment System (SNES))
   symbol(Nintendo Entertainment System (NES))
-  symbol(New Nintendo 3DS) 
   symbol(Nintendo 3DS) 
   symbol(Nintendo DS) 
   symbol(Xbox 360) 
@@ -154,5 +154,4 @@ enum (PlatformNames) {
   symbol(TurboGrafx-16/PC Engine)
   symbol(Imlac PDS-1)
   symbol(Oculus VR)
-
 }

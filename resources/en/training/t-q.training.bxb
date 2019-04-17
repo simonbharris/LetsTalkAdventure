@@ -1,5 +1,15 @@
+train (t-q6z3tqnxqfs8y5g9dw7596ifg) {
+  utterance ("[g:FindGame:continue] (popular)[v:SortFilter:popularity] games")
+  plan (Y2BlUMtJLSmOL0nMyY7PT4tPTClLzSspLUrVS0/MTXXLzEtJLdJzBzIZtAirA1FgtRrEqM0pSS1i0CGs0jcxO5V41cH5RSVQ1SwMjAxMDMxAmgHKYgSzQIAJSAPFAQ==)
+  last-modified (1555467852196)
+}
 train (t-qhmbmtnd433x8s51mxyft5m85) {
-  utterance ("[g:FindGame] (mobile)[v:PlatformNames:Mobile] games")
-  plan (jYxdCoNADITHn/YoUkqxt2iflEIPsASMUlxdiNHzN8q+r4EwH8PH4IrKsy5OyY8u9I66jWddheuBJn795o6lfhvinvb2ONzbGdcrCx5ps6GRo/1M2x9P2geZWquWM/PfIBrnL8iQo0BphMiFJY7fLzcqgT8=)
-  last-modified (1555218118599)
+  utterance ("[g:Filter:continue] (mobile)[v:PlatformNames:Mobile] games")
+  plan (Y2Bh0MhJLSmOL0nMyY7PT4tPTClLzSspLUrVS0/MTXXLzEtJLdJzy8wpSS1i0CGs0jcxOxWqWp+w6oCcxJK0/KJcP6BQMTHGB+cXlUCNZ2ZgZGACkgxAGgQhgAmCAQ==)
+  last-modified (1555384050343)
+}
+train (t-qvmndy428f5g271grdbmsw1hj) {
+  utterance ("[g:FindGame:continue] games released in the {[g:Duration] (last 2 months)[v:time.DateTimeExpression]}")
+  plan (jY7BCsIwDIYzV/UhvIuI9CmmnjzpvQQWpaxrpc2Kj29bel8DId8PHz+BPRwNcVCMZlLurXCMZHnxJD84003bkby8J4TzupdPcU8trmHycFk3HzhRtRt+GBaPrJ1taX46z7X5EHWUrGeSAzK9Elx/X08h5KoddLCBHgRsE0NNOXcl5RFp+8Si2OIP)
+  last-modified (1555401286236)
 }

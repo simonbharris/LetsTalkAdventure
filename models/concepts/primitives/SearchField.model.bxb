@@ -1,3 +1,6 @@
 text (SearchField) {
   description (Acts as search field for our filter)
+  features {
+    transient
+  }
 }

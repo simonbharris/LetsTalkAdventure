@@ -1,15 +1,15 @@
 train (t-z0cxxi4vg8gprcea3k6vmsub5) {
-  utterance ("[g:MakeFilter:continue:FindGame] games released in the {[g:Duration] (last year)[v:time.DateTimeExpression]}")
-  plan (jYxBCsIwEEWnVk/hBUQkp6jduar7MNCvhKaJTKbB45uU7uts5n14PDrRxUOTVfaTjS/LY0bQRWDePKN3YYSY3nmF0G3ffPCEzb7u290irC6Gf8pDFN3K5+yyUTfDdKx4Frh/P4KUaupIDR2oLZ8KVW6oXt3tulfjBw==)
-  last-modified (1555216499227)
+  utterance ("[g:Filter:continue] games released in the {[g:Duration] (last year)[v:time.DateTimeExpression]}")
+  plan (jYxBCsIwEEWnrZ7CC4hITlG7c1X3YaBfCU0TmUyDxzfB7uvAMG/g8ehIZw9NVtnPNj4tTxlBV4F58YLBhQliBucVQtd9884zNvuyb/ersLoY/imPUXQrn7LLRt0C07PiUeD2eQtSqqkDNdRSVy4VqtxQnfp3Zduf8QU=)
+  last-modified (1555384171821)
 }
 train (t-z7jou3ycnyrwazp09v9ml2kiz) {
-  utterance ("[g:MakeFilter:continue:FindGame] find an (open world)[v:ThemeNames:'Open world'] game.")
-  plan (Y2Bh0MhJLSmOL0nMyY7PT4tPTClLzSspLUrVS0/MTXXLzEtJLdJzy8wpSS1i0CGs0jcxO5V41cH5RSXEqw7JSM1N9QPyixmYGRgZmIAkA5AGQQhgArKAYgA=)
-  last-modified (1555217048320)
+  utterance ("[g:FindGame:continue] find an (open world)[v:ThemeNames:'Open world'] game.")
+  plan (jYpLCoNAEETLT3IUEQkew6ziRvfDgJVEHBXG1vPbinunoKnX1MMTmaMsRqwbzPw1tts4yepZ/uzIqp86+vKtiOLeO+p08xDXCT1e9+bHDgy3m9lLuN3+ObLWf8EDEWIkSJVwcaKN847ESrrt)
+  last-modified (1555384492069)
 }
 train (t-zc35cy0tqjaxltbhsn0lei8o8) {
-  utterance ("[g:MakeFilter:continue:FindGame] games released in {[g:Duration] (2018)[v:time.Year]}")
-  plan (jY7PCsIwDIcz/3vw6CMIIlLxEYQx8eBFT55GZHGUdS10aY8+u90cg522SyBfviQ/WMNeEVcpoypS80kx86TZWRI5lpRInZEViVRMFo7D5h0Lau3DsB07iyyNhvOweyWOkemmw22PakyYp7Hchtl66QXLkkTvyK7DD6qM8nQp3zJ3xlU97TRK++rwOqsJbLqFF6GFFUQwgSnMYA4LWIYeGhIF9idRQ6CrECa10Wz+AA==)
-  last-modified (1555327998250)
+  utterance ("[g:Filter:continue] games released in {[g:Duration] (2018)[v:time.Year]}")
+  plan (jY49C8IwEIbf+u3g6E8QRCTiTxBKxcFFJ6cS6VlC0wTSa0Z/u7GWQqe6HNxzz929WGKriauUpS5S+0pl5slw7UjksqREmYycSJRmctgPm1dZUGvvhu24dpKVNTgOu2fiWDJdTLjtpf4nzN06bsOsvfKCVUmid2TT4RtVVns6lU+V17auetrhL+1twuvsS7DqFh4kHRaIMMIYE0wxwzz0aEgU2I9EDUFXESYIRrP5AQ==)
+  last-modified (1555384201151)
 }

@@ -1,0 +1,15 @@
+train (t-11j7bzp7rvyqpp3v9zwcxuc4e) {
+  utterance ("[g:Filter:continue] (science fiction)[v:ThemeNames:'Science fiction']")
+  plan (Y2Bh0MhJLSmOL0nMyY7PT4tPTClLzSspLUrVS0/MTXXLzEtJLdJzy8wpSS1i0CGs0jcxO5V41cH5RSXEqw7JSM1N9QPyixmYGRgZmIAkA5AGQQhgAmKgGAA=)
+  last-modified (1555462981345)
+}
+train (t-12ougy51fwbdb8ztya451z30v) {
+  utterance ("[g:Filter:continue] games releasing {[g:Duration] (this year)[v:time.DateTimeExpression]}")
+  plan (jYxBCsIwEEWnrZ7CC4hITlG7c1X3YaBfCU0TmUyDxzfB7uvAMG/g8ehIZw9NVtnPNj4tTxlBV4F58YLBhQliBucVQtd9884zNvuyb/ersLoY/imPUXQrn7LLRt0C07PiUeD2eQtSqqkDNdRSVy4VqtxQnfp3Zduf8QU=)
+  last-modified (1555401322926)
+}
+train (t-1pnn8cadm816rnfhrm4vcj1rz) {
+  utterance ("[g:Filter:continue] (adventure)[v:GenreNames:Adventure] genre")
+  plan (Y2Bh0MhJLSmOL0nMyY7PT4tPTClLzSspLUrVS0/MTXXLzEtJLdJzy8wpSS1i0CGs0jcxO5V41e6peUWpfkB+MTGqg/OLSqBmMzMwMjABSQYgDYIQwATBAA==)
+  last-modified (1555381924654)
+}

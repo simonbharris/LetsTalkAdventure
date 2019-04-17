@@ -1,5 +1,15 @@
+train (t-06rqwy7glv9ufbx729b16lfsf) {
+  utterance ([g:FindGame:continue:Filter] apply)
+  plan (Y2BmUMtJLSmOL0nMyY7PT4tPTClLzSspLUrVS0/MTXXLzEtJLdJzBzIZtAirA1FgtRrEqM0pSS1iYGJgBGIGIMnIwACjAQ==)
+  last-modified (1555387498076)
+}
+train (t-0d7rqw5z3ulk5rcohz4ffv8d4) {
+  utterance ("[g:Filter:continue] (reviews)[v:SortFilter:total_rating]")
+  plan (Y2Bm0MhJLSmOL0nMyY7PT4tPTClLzSspLUrVS0/MTXXLzEtJLdJzy8wpSS1i0CGs0jcxO5V41cH5RSVQ1UwMjEDMACQZGUCACYIB)
+  last-modified (1555385544910)
+}
 train (t-0g2iho8qwxmook5hrdwe3k3fv) {
-  utterance ("[g:FindGame] Games about (Fantasy)[v:ThemeNames:Fantasy]")
-  plan (jYpLCoNAEETLT3IUEQkew6ziRvfDgJVEHBXG1vPbinunoKnX1MMTmaMsRqwbzPw1tts4yepZ/uzIqp86+vKtiOLeO+p08xDXCT1e9+bHDgy3m9lLuN3+ObLWf8EDEWIkSJVwcaKN847ESrrt)
-  last-modified (1555327993937)
+  utterance ("[g:Filter:continue] Games about (Fantasy)[v:ThemeNames:Fantasy]")
+  plan (Y2Bh0MhJLSmOL0nMyY7PT4tPTClLzSspLUrVS0/MTXXLzEtJLdJzy8wpSS1i0CGs0jcxO5V41cH5RSXEqw7JSM1N9QPyixmYGRgZmIAkA5AGQQhgAmKgGAA=)
+  last-modified (1555382441336)
 }

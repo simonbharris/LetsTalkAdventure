@@ -1,10 +1,10 @@
 train (t-jwsr77bgj792f3eftmws0t0wz) {
-  utterance ("[g:FindGame] look for (fantasy)[v:ThemeNames:Fantasy] games")
-  plan (jYpLCoNAEETLT3IUEQkew6ziRvfDgJVEHBXG1vPbinunoKnX1MMTmaMsRqwbzPw1tts4yepZ/uzIqp86+vKtiOLeO+p08xDXCT1e9+bHDgy3m9lLuN3+ObLWf8EDEWIkSJVwcaKN847ESrrt)
-  last-modified (1555218094106)
+  utterance ("[g:Filter:continue] look for (fantasy)[v:ThemeNames:Fantasy] games")
+  plan (Y2Bh0MhJLSmOL0nMyY7PT4tPTClLzSspLUrVS0/MTXXLzEtJLdJzy8wpSS1i0CGs0jcxO5V41cH5RSXEqw7JSM1N9QPyixmYGRgZmIAkA5AGQQhgAmKgGAA=)
+  last-modified (1555383983221)
 }
 train (t-jz3rf98oas4il2olw3agm51ku) {
-  utterance ("[g:FindGame] (shooter)[v:GenreNames:Shooter] games")
-  plan (jYxLCoNAEETLT3IUERGPEVfJxgMMA1ZCcDJC2/H8tuLeKWjqNTwKd1SBujj1YXLz2/lxZdS/sPv4Hx/fOFK63hDNtbfX4dYpblAK2mvz6Sem2z2j8GX/kmIPs+i5fUOGHAVKI5xcWOO4PblRCWw=)
-  last-modified (1555327996229)
+  utterance ("[g:Filter:continue] (shooter)[v:GenreNames:Shooter] games")
+  plan (Y2Bh0MhJLSmOL0nMyY7PT4tPTClLzSspLUrVS0/MTXXLzEtJLdJzy8wpSS1i0CGs0jcxO5V41e6peUWpfkB+MTGqg/OLSqBmMzMwMjABSQYgDYIQwATBAA==)
+  last-modified (1555383990510)
 }

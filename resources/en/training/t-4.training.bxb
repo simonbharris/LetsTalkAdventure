@@ -1,10 +1,15 @@
+train (t-4i0hf6mtiirz27go7mpbh5ojh) {
+  utterance ("[g:Filter:continue] (popular)[v:SortFilter:popularity] games")
+  plan (Y2Bm0MhJLSmOL0nMyY7PT4tPTClLzSspLUrVS0/MTXXLzEtJLdJzy8wpSS1i0CGs0jcxO5V41cH5RSVQ1UwMjEDMACQZGUCACYIB)
+  last-modified (1555467890887)
+}
 train (t-4mnw1memfx2w4c36i7kz2xuus) {
-  utterance ("[g:FindGame] for (mobile)[v:PlatformNames:Mobile]")
-  plan (jYxdCoNADITHn/YoUkqxt2iflEIPsASMUlxdiNHzN8q+r4EwH8PH4IrKsy5OyY8u9I66jWddheuBJn795o6lfhvinvb2ONzbGdcrCx5ps6GRo/1M2x9P2geZWquWM/PfIBrnL8iQo0BphMiFJY7fLzcqgT8=)
-  last-modified (1555327994287)
+  utterance ("[g:Filter:continue] for (mobile)[v:PlatformNames:Mobile]")
+  plan (Y2Bh0MhJLSmOL0nMyY7PT4tPTClLzSspLUrVS0/MTXXLzEtJLdJzy8wpSS1i0CGs0jcxOxWqWp+w6oCcxJK0/KJcP6BQMTHGB+cXlUCNZ2ZgZGACkgxAGgQhgAmCAQ==)
+  last-modified (1555407079291)
 }
 train (t-4s3qtcy7euv2elm5mlj4kmq6s) {
-  utterance ("[g:FindGame] find a game called (Apex Legends)[v:Name]")
+  utterance ("[g:FindGame:continue:Filter] find a game called (Apex Legends)[v:Name]")
   plan (Y2BjUMtJLSmOL0nMyY7PT4tPTClLzSspLUrVS0/MTXXLzEtJLdJzBzIZtAirA1FgtRrEqM0pSS1i0CGs0jcxOxWqmgi3+oHsJ8LU4PyiEqiprAyMDEwMzAwsQBYDlM0MpBnAGASYgCwWBgYA)
-  last-modified (1555327994460)
+  last-modified (1555406711822)
 }

@@ -13,6 +13,7 @@ const gameFields = "fields "
   + " total_rating,"
   + " total_rating_count,"
   + " similar_games, "
+  + " first_release_date, "
   + " external_games.category, "
   + " external_games.url, "
   + " url;"
@@ -21,6 +22,8 @@ function convertToGames(apiObj)
 {
   var result = [];
     apiObj.forEach(function(o) {
+      o.release_date = new dates.ZonedDateTime("UTC+00:00", o.first_release_date*1000).format("MMM dd YYYY")
+      o.first_release_date=undefined; // removing untracked field
       console.log(o);
     result.push(o)
   });
@@ -34,7 +37,7 @@ module.exports.function = function findGameLike (game) {
   body += "where id = (" + game.similar_games.join(",") + "); limit " + config.get('maxReturnCount') + ";";
 
   console.log(body);
-  var json = http.postUrl(config.get('api.url') + "games/", body, {"headers" :{"user-key": config.get('api.key')}});
+  var json = http.postUrl(config.get('api.url') + "games/", body, {"headers" :{"user-key": secret.get('api.key')}});
   var result = convertToGames(JSON.parse(json));
   console.log(json);
   return result

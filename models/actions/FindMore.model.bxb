@@ -1,0 +1,17 @@
+action (FindMore) {
+  type (Search)
+  description (Increments the pagination tracker)
+  collect {
+    input (pageNo) {
+      type (PageNo)
+      min (Required) max (One)
+      default-init{
+        intent{
+          goal: PageNo
+          value: PageNo(0)
+        }
+      }
+    }
+  }
+  output (PageNo)
+}

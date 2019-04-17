@@ -25,7 +25,11 @@ structure (Filter) {
     type (SortFilter) 
     min (Optional) max (One)
   }
-
+  features {
+    preferable {
+      preference (platforms)
+    }
+  }
   named-consumer (applyFilter) {
     action (FindGame)
     input (filter)

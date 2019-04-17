@@ -1,5 +1,10 @@
 train (t-k35zcusaolybxxwpvpck6knsd) {
-  utterance ("[g:FindGame] find the video game (super smash brothers)[v:Name]")
+  utterance ("[g:FindGame:continue:Filter] find the video game (super smash brothers)[v:Name]")
   plan (Y2BjUMtJLSmOL0nMyY7PT4tPTClLzSspLUrVS0/MTXXLzEtJLdJzBzIZtAirA1FgtRrEqM0pSS1i0CGs0jcxOxWqmgi3+oHsJ8LU4PyiEqiprAyMDEwMzAwsQBYDlM0MpBnAGASYgCwWBgYA)
-  last-modified (1555327996347)
+  last-modified (1555384526297)
+}
+train (t-kadnhnnnmd0tgpe7zulft8zph) {
+  utterance ("[g:FindGame:continue] games releasing {[g:Duration] (this year)[v:time.DateTimeExpression]}")
+  plan (jY7BCsIwDIYzV/UhvIuI9CmmnjzpvQQWpaxrpc2Kj29bel8DId8PHz+BPRwNcVCMZlLurXCMZHnxJD84003bkby8J4TzupdPcU8trmHycFk3HzhRtRt+GBaPrJ1taX46z7X5EHWUrGeSAzK9Elx/X08h5KoddLCBHgRsE0NNOXcl5RFp+8Si2OIP)
+  last-modified (1555396466980)
 }

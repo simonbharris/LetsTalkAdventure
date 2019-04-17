@@ -1,3 +1,0 @@
-integer (TotalRatingCount) {
-  description (Number of users, IGDB + critics that have reviewed the game)
-}

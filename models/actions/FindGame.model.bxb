@@ -12,44 +12,15 @@ action (FindGame) {
         }
       }
     }
-    // input (name) {
-    //   type (Name)
-    //   min (Optional) max (One)
-    // }
-    // input (platforms) {
-    //   type (PlatformNames)
-    //   min (Optional) max (Many)
-    // }
-    // input (genres) {
-    //   type (GenreNames)
-    //   min (Optional) max (Many)
-    // }
-    // input (themes) {
-    //   type(ThemeNames)
-    //   min (Optional) max (Many)
-    // }
-    // input (releasedSince) {
-    //   type(Duration)
-    //   min (Optional) max (One)
-    // }
-    
-    // ----- Probably don't need VVVVV
-    // input (gamesLike) {
-    //   type (ID)
-    //   min (Optional) max (Many)
-    // }
-    // ^^^^^^^ Probably don't need input
-    
-    // input (released) { // Not really used
-    //   type(Released)
-    //   min (Required) max (One)
-    //   default-init {
-    //     intent {
-    //       goal: Released
-    //       value: Released (true)
-    //     }
-    //   }
-    // }
+    input (pageNo) {
+      type(PageNo)
+      default-init {
+        intent {
+          goal: PageNo
+          value: PageNo(0)
+        }
+      }
+    }
   }
   output (Game) {
     sort {

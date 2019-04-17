@@ -1,5 +1,10 @@
 train (t-oeut6l195ahi8j9py6o8rlgu0) {
-  utterance ("[g:FindGame] look for (crystal chronicles)[v:Name]")
-  plan (Y2BjUMtJLSmOL0nMyY7PT4tPTClLzSspLUrVS0/MTXXLzEtJLdJzBzIZtAirA1FgtRrEqM0pSS1i0CGs0jcxOxWqmgi3+oHsJ8LU4PyiEqiprAyMDEwMzAwsQBYDlM0MpBnAGASYgCwWBgYA)
-  last-modified (1555327997006)
+  utterance ("[g:Filter:continue] look for (crystal chronicles)[v:Name]")
+  plan (Y2Bh0MhJLSmOL0nMyY7PT4tPTClLzSspLUrVS0/MTXXLzEtJLdJzy8wpSS1i0CGs0jcxOxWqWo2waj8gkxhTg/OLSqCmMjMwMjABSQYgDYIQwATBAA==)
+  last-modified (1555384043848)
+}
+train (t-ohekah51huu4t7jv0fb0482ae) {
+  utterance ([g:FindGame:continue:FindLast,r:FindLast] last page)
+  plan (Y2BjUMtJLSmOL0nMyY7PT4tPTClLzSspLUrVS0/MTXXLzEtJLdJzBzIZtAirA1FgtRrEqM0pSS0iRmVAYnqqXz6x9vskFpeQYCorAyMDEwMzAwuQxQBkM4LZjAwMYB4IMAFpFgYGAA==)
+  last-modified (1555407106245)
 }

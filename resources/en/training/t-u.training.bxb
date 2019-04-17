@@ -1,5 +1,15 @@
+train (t-u0imr2v0khj4nd5t73oakeg6l) {
+  utterance ([g:FindGame] show me games)
+  plan (Y2BmUMtJLSmOL0nMyY7PT4tPTClLzSspLUrVS0/MTXXLzEtJLdJzBzIZtAirA1FgtRrEqM0pSS1iYGJgBGIGIMnIwACjAQ==)
+  last-modified (1555389259267)
+}
 train (t-u1b85xzv20ggvmkigk2r5wef5) {
   utterance ([g:FindGameLike:continue:FindGame] games like these)
   plan (Y2BmUMtJLSmOL0nMyY7PT4tPTClLzSspLUrVS0/MTXXLzEtJLdJzBzIZ9AirA1EgtT6Z2alEm8vEwAjEDECSkYEBRgMA)
   last-modified (1555213047279)
+}
+train (t-uk4xjc1tjh5di8jrq2i5cyzpw) {
+  utterance ("[g:FindGame] search for games about (science fiction)[v:ThemeNames:'Science fiction']")
+  plan (jYpLCoNAEETLT3IUEQkew6ziRvfDgJVEHBXG1vPbinunoKnX1MMTmaMsRqwbzPw1tts4yepZ/uzIqp86+vKtiOLeO+p08xDXCT1e9+bHDgy3m9lLuN3+ObLWf8EDEWIkSJVwcaKN847ESrrt)
+  last-modified (1555463354430)
 }

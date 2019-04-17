@@ -1,0 +1,10 @@
+train (t-6dj60mspoq19omomhbw22fzx7) {
+  utterance ([g:FindGame] show games)
+  plan (Y2BmUMtJLSmOL0nMyY7PT4tPTClLzSspLUrVS0/MTXXLzEtJLdJzBzIZtAirA1FgtRrEqM0pSS1iYGJgBGIGIMnIwACjAQ==)
+  last-modified (1555406966845)
+}
+train (t-6lk9l5sosh2r8nc7verbsw9il) {
+  utterance ([g:Filter] look up games)
+  plan (Y2Bk0MhJLSmOL0nMyY7PT4tPTClLzSspLUrVS0/MTXXLzEtJLdJzy8wpSS1iAAFGEAEA)
+  last-modified (1555389382580)
+}

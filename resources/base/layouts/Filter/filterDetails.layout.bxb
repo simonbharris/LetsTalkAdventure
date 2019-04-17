@@ -74,9 +74,13 @@ layout-macro-def(filter-details) {
             input-cell {
               label (Sort By)
               value ("#{value(filter.sortFilter)}")
-              on-click {
+              on-click{
                 intent {
-                  goal: FindGame
+                  goal {@context (Continuation) Filter}
+                  subplan {
+                    goal {@prompt-behavior(AlwaysElicitation) SortFilter}
+                    route: GetPlatformNames
+                  }
                 }
               }
             }
@@ -99,6 +103,43 @@ layout-macro-def(filter-details) {
           text {
             value (Database powered by IGDB)
             style (Detail_M_Soft)
+          }
+        }
+        divider
+        single-line {
+          text {
+            value (Example phrases:)
+            style (Detail_M)
+          }
+        }
+        single-line {
+          text {
+            value("\"Games releasing next month\"")
+            style(Detail_M_Soft)
+          }
+        }
+        single-line {
+          text {
+            value("\"For the playstation 4 and switch\"")
+            style(Detail_M_Soft)
+          }
+        }
+        single-line {
+          text {
+            value("\"Fantasy RPG games\"")
+            style(Detail_M_Soft)
+          }
+        }
+        single-line {
+          text {
+            value("\"Games releasing next month\"")
+            style(Detail_M_Soft)
+          }
+        }
+        single-line {
+          text {
+            value("\"Sort by release date\" (Ascending)")
+            style(Detail_M_Soft)
           }
         }
       }

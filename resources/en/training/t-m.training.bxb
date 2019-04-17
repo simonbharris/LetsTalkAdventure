@@ -1,5 +1,10 @@
 train (t-m5n3kdmfiogo0uoy9t9bg4w5c) {
-  utterance ("[g:FindGame] Games about (Science fiction)[v:ThemeNames:'Science fiction']")
-  plan (jYpLCoNAEETLT3IUEQkew6ziRvfDgJVEHBXG1vPbinunoKnX1MMTmaMsRqwbzPw1tts4yepZ/uzIqp86+vKtiOLeO+p08xDXCT1e9+bHDgy3m9lLuN3+ObLWf8EDEWIkSJVwcaKN847ESrrt)
-  last-modified (1555327996748)
+  utterance ("[g:Filter:continue] Games about (Science fiction)[v:ThemeNames:'Science fiction']")
+  plan (Y2Bh0MhJLSmOL0nMyY7PT4tPTClLzSspLUrVS0/MTXXLzEtJLdJzy8wpSS1i0CGs0jcxO5V41cH5RSXEqw7JSM1N9QPyixmYGRgZmIAkA5AGQQhgAmKgGAA=)
+  last-modified (1555384069033)
+}
+train (t-musuhv5yo4smfittz856eatvc) {
+  utterance ([g:FindGame:continue:FindMore,r:FindMore] next page)
+  plan (lY3LCYAwEEQn/koR8WAZelLsIASyihgTiKv1G9OAcS/zBh6zqFAb4lOyMrt0i1T6JsuXp25VB/Wb1eS7ISDab++N6DYprmHyKeasVppc6v/RefqxWkIgQ44iEAKLyAKI7b0sZAE8)
+  last-modified (1555407103374)
 }

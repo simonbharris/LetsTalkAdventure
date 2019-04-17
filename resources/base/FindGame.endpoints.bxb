@@ -1,10 +1,17 @@
 endpoints {
   action-endpoints {
     action-endpoint (FindGame) {
-      accepted-inputs (filter, released, releasedSince)
+      accepted-inputs (filter, released, releasedSince, pageNo)
       local-endpoint ("find/FindGames.js")
     }
+    action-endpoint (FindMore) {
+      accepted-inputs (pageNo)
+      local-endpoint (find/FindMore.js)
+    }
+    action-endpoint (FindLast) {
+      accepted-inputs (pageNo)
+      local-endpoint (find/FindLast.js)
+    }
   }
-
 }
 
