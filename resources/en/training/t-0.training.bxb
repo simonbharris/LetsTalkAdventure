@@ -13,3 +13,8 @@ train (t-0g2iho8qwxmook5hrdwe3k3fv) {
   plan (Y2Bh0MhJLSmOL0nMyY7PT4tPTClLzSspLUrVS0/MTXXLzEtJLdJzy8wpSS1i0CGs0jcxO5V41cH5RSXEqw7JSM1N9QPyixmYGRgZmIAkA5AGQQhgAmKgGAA=)
   last-modified (1555382441336)
 }
+train (t-0zj9cqto3ckmfeliyg8eo2fi5) {
+  utterance ("[g:FindGame] Let's talk adventure")
+  plan (Y2BmUMtJLSmOL0nMyY7PT4tPTClLzSspLUrVS0/MTXXLzEtJLdJzBzIZtAirA1FgtRrEqM0pSS1iYGJgBGIGIMnIwACjAQ==)
+  last-modified (1555476383290)
+}
