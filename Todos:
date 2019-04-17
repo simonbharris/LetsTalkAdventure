@@ -15,10 +15,8 @@ Recommend adding (Suspected difficulty)
     Added Ratings and Genres to summary page; perhaps more?
     Added web-link button on details page with respective icons.
   Display Age Rating (easy)
-  Release  Status / date? (Easy-medium)
 
 Maybe adding
-  "Pagination", Store offset (for search) in a concept; have a conversation drivers to incrment or decrement offset
   Adding icons to the details screen to add some ZING!
     Added icons with redirect links
   Blacklist (IE: exclude "Erotic" theme)
@@ -28,7 +26,6 @@ Probably won't add:
   Out of scope / Bonus features:
     Rate from the app (May require user login, maybe redirect instead?)
     Take the game ID and ping their feed API for news / media stuff 
-    If Mobile game, check if user already own the game / offer to play if they do. (Not sure if possible)
     
 IMPLEMENTED:
   Add visual option to "find games like" ("Find games like this" is implemented)
@@ -39,5 +36,7 @@ IMPLEMENTED:
   Implement redirect links to external websites (Medium?)
     platform == android, offer option to redirect to playstore
   Pagination "Show me more" (easy-medium?) 
+  Release  Status / date? (Easy-medium)
+  "Pagination", Store offset (for search) in a concept; have a conversation drivers to incrment or decrement offset
   
   
