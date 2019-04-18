@@ -1,6 +1,8 @@
 # LetsTalkAdventure
 Bixby capsule that gives the user a centralized location to discover new games tailored to their interests.
 
+![Presentation panel](https://cdn.discordapp.com/attachments/567608389622956042/568156044144934927/unknown.png)
+
 ## Features of the app:
  * Browse a massive online database of games.
  * View game details, including summary, rating, release date, platforms, genre, and themes.
@@ -26,6 +28,3 @@ Bixby capsule that gives the user a centralized location to discover new games t
 * Delivered the following below:
   * https://www.youtube.com/watch?v=Qko-m1XjV0o
   
-  
-![Presentation panel](https://cdn.discordapp.com/attachments/567608389622956042/568156044144934927/unknown.png)
-
