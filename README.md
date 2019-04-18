@@ -10,11 +10,12 @@ Bixby capsule that gives the user a centralized location to discover new games t
  * Redirect links to IGDB, Steam, Twitch, and Google playstore where applicable.
  
 ## Planned features:
+ * Create a user profile
+   * Save filters, preferences, watchlist etc.
  * Add rating or reviews directly from the app (Via IGDB account)
  * Check out friend reviews / ratings.
- * Enhanced filtering, (Age rating with age verification, blacklist categories, save filters between sessions)
+ * Enhanced filtering, (Age rating with age verification, blacklist categories)
  * Allow user to set reminder for upcoming titles.
- * Watchlists (Potentially for games matching a set of filters)
  * View news, images, and other media directly from the app.
  * And more!
 
