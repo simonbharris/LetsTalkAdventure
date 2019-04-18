@@ -1,7 +1,7 @@
 # LetsTalkAdventure
 Bixby capsule that gives the user a centralized location to discover new games tailored to their interests.
 
-Features of the app:
+## Features of the app:
  * Browse a massive online database of games.
  * View game details, including summary, rating, release date, platforms, genre, and themes.
  * Filter by Genre, Platforms, Themes, Name, and release date (range)
@@ -9,7 +9,7 @@ Features of the app:
  * Find a similar game.
  * Redirect links to IGDB, Steam, Twitch, and Google playstore where applicable.
  
-Planned features:
+## Planned features:
  * Add rating or reviews directly from the app (Via IGDB account)
  * Check out friend reviews / ratings.
  * Enhanced filtering, (Age rating with age verification, blacklist categories, save filters between sessions)
@@ -19,7 +19,11 @@ Planned features:
  * And more!
 
 
+## Progress after 7 days
+* Learned JavaScript
+* Learned Bixby Developer Studio
+* Delivered the following below:
 
-Presentation slides after 7 days of development.
+[Demonstration alongwide the presentation slide below.] (https://www.youtube.com/watch?v=Qko-m1XjV0o)
 ![Presentation panel](https://cdn.discordapp.com/attachments/567608389622956042/568156044144934927/unknown.png)
-https://www.youtube.com/watch?v=Qko-m1XjV0o
+
