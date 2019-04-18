@@ -23,7 +23,6 @@ Bixby capsule that gives the user a centralized location to discover new games t
 * Learned JavaScript
 * Learned Bixby Developer Studio
 * Delivered the following below:
-
-[Demonstration alongwide the presentation slide below.] (https://www.youtube.com/watch?v=Qko-m1XjV0o)
+** https://www.youtube.com/watch?v=Qko-m1XjV0o
 ![Presentation panel](https://cdn.discordapp.com/attachments/567608389622956042/568156044144934927/unknown.png)
 
